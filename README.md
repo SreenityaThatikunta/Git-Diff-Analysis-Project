@@ -29,7 +29,7 @@ This project automates the process of compiling and explaining git diffs from a 
 1. Clone this repository:
    ```bash
    git clone https://github.com/SreenityaThatikunta/Git-Diff-Analysis-Project.git
-   cd your-repo
+   cd Git-Diff-Analysis-Project
    ```
 2. Install dependencies:
    ```bash
