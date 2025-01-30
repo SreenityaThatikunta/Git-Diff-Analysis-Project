@@ -4,3 +4,6 @@ combined_explanations.md
 explanations/
 git_diffs/
 final.pdf
+__pycache__/
+*.log
+mdpdf.log
