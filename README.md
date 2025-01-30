@@ -29,32 +29,32 @@ This project automates the process of compiling and explaining git diffs from a 
 1. Clone this repository:
    ```bash
    git clone https://github.com/SreenityaThatikunta/Git-Diff-Analysis-Project.git
+   
    cd Git-Diff-Analysis-Project
    ```
 2. Install dependencies:
    ```bash
    pip install google-generativeai
-   ```
-   ```bash
+
    npm i mdpdf
    ```
 
 
 ## Workflow:
 
-1. **Save Diffs**:
-   - Run `save_diff.py` to extract Git diffs from the repository.
-   - The diffs will be saved in the `git_diffs` folder.
+1. Clone the GitHub repository that you wish to be explained.
 
-2. **Generate Explanations**:
-   - Run `explain_gemini.py` to generate explanations for the diffs using the Gemini AI model.
-   - The explanations will be saved in the `explanations` folder.
+2. Create a .env file and add your Gemini API key and the cloned GitHub repository folder path.
+   ```bash
+      api_key = ""
+      repo_path = ""
+      ```
 
-3. **Combine Explanations**:
-   - Run `convert.py` to combine all Markdown explanations into a single file, `combined_explanations.md`.
+3. Add the suitable prompt and system instructions according the repo in the ```explain_gemini.py ``` file.
 
-4. **Export to PDF**:
-   - Use `mdpdf` to convert `combined_explanations.md` into a PDF:
-     ```bash
-     mdpdf -o final.pdf combined_explanations.md
-     ```
+4. Run the main.py file.
+   ```bash
+   python3 main.py
+   ```
+
+5. A pdf named final.pdf is saved in your current directory.
