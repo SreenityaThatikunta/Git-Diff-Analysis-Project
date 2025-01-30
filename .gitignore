@@ -1,2 +1,5 @@
 .env
 venv/
+combined_explanations.md
+explanations/
+git_diffs/
