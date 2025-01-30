@@ -1,0 +1,1177 @@
+    INFO: 2025-01-17 22:59:39,716:               log.py:   20: Logging to /Users/sreenityathatikunta/Documents/Projects/Git-Diff-Analysis-Project/mdpdf.log
+   DEBUG: 2025-01-17 22:59:39,716:               cli.py:  103: combined_explanations.md
+    INFO: 2025-01-17 22:59:39,719:         converter.py:   14: combined_explanations.md
+   DEBUG: 2025-01-17 22:59:39,728:      pdf_renderer.py:  470: printSegment: Okay, let
+   DEBUG: 2025-01-17 22:59:39,732:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:39,733:      pdf_renderer.py:  470: printSegment: s break down this git diff and understand what it tells us about the password generation process.
+   DEBUG: 2025-01-17 22:59:39,734:      pdf_renderer.py:  470: printSegment: Understanding the Git Diff
+   DEBUG: 2025-01-17 22:59:39,735:      pdf_renderer.py:  470: printSegment: The 
+   DEBUG: 2025-01-17 22:59:39,737:      pdf_renderer.py:  470: printSegment: git diff
+   DEBUG: 2025-01-17 22:59:39,738:      pdf_renderer.py:  470: printSegment:  command shows the changes between two versions of a file. In this case, it
+   DEBUG: 2025-01-17 22:59:39,739:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:39,739:      pdf_renderer.py:  470: printSegment: s comparing an older
+   DEBUG: 2025-01-17 22:59:39,739:      pdf_renderer.py:  470: printSegment: version of 
+   DEBUG: 2025-01-17 22:59:39,740:      pdf_renderer.py:  470: printSegment: README.md
+   DEBUG: 2025-01-17 22:59:39,740:      pdf_renderer.py:  470: printSegment:  (identified by the hash 
+   DEBUG: 2025-01-17 22:59:39,740:      pdf_renderer.py:  470: printSegment: 4d07324
+   DEBUG: 2025-01-17 22:59:39,741:      pdf_renderer.py:  470: printSegment: ) with a newer version (identified by 
+   DEBUG: 2025-01-17 22:59:39,741:      pdf_renderer.py:  470: printSegment: 3f6cc96
+   DEBUG: 2025-01-17 22:59:39,741:      pdf_renderer.py:  470: printSegment: ).
+   DEBUG: 2025-01-17 22:59:39,742:      pdf_renderer.py:  470: printSegment: The important parts of this diff are:
+   DEBUG: 2025-01-17 22:59:39,742:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,743:      pdf_renderer.py:  470: printSegment: --- a/README.md
+   DEBUG: 2025-01-17 22:59:39,743:      pdf_renderer.py:  470: printSegment: :  Indicates the original version of the file.
+   DEBUG: 2025-01-17 22:59:39,744:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,744:      pdf_renderer.py:  470: printSegment: +++ b/README.md
+   DEBUG: 2025-01-17 22:59:39,745:      pdf_renderer.py:  470: printSegment: : Indicates the modified version of the file.
+   DEBUG: 2025-01-17 22:59:39,745:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,745:      pdf_renderer.py:  470: printSegment: @@ -12,7 +12,7 @@
+   DEBUG: 2025-01-17 22:59:39,746:      pdf_renderer.py:  470: printSegment: : Shows the location of the changes. The 
+   DEBUG: 2025-01-17 22:59:39,746:      pdf_renderer.py:  470: printSegment: -12,7
+   DEBUG: 2025-01-17 22:59:39,746:      pdf_renderer.py:  470: printSegment:  means 
+   DEBUG: 2025-01-17 22:59:39,747:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-01-17 22:59:39,747:      pdf_renderer.py:  470: printSegment: starting at line 12,
+   DEBUG: 2025-01-17 22:59:39,747:      pdf_renderer.py:  470: printSegment: remove 7 lines,
+   DEBUG: 2025-01-17 22:59:39,748:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-01-17 22:59:39,748:      pdf_renderer.py:  470: printSegment:  and 
+   DEBUG: 2025-01-17 22:59:39,748:      pdf_renderer.py:  470: printSegment: +12,7
+   DEBUG: 2025-01-17 22:59:39,749:      pdf_renderer.py:  470: printSegment:  means 
+   DEBUG: 2025-01-17 22:59:39,749:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-01-17 22:59:39,749:      pdf_renderer.py:  470: printSegment: starting at line 12, add 7 lines.
+   DEBUG: 2025-01-17 22:59:39,750:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-01-17 22:59:39,750:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,750:      pdf_renderer.py:  470: printSegment: The actual change:
+   DEBUG: 2025-01-17 22:59:39,750:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-01-17 22:59:39,751:      pdf_renderer.py:  470: printSegment: -4. 85% - special characters from any four sets
+   DEBUG: 2025-01-17 22:59:39,751:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-01-17 22:59:39,752:      pdf_renderer.py:  470: printSegment: +4.
+   DEBUG: 2025-01-17 22:59:39,752:      pdf_renderer.py:  470: printSegment: 85% - Characters from any four sets
+   DEBUG: 2025-01-17 22:59:39,752:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-01-17 22:59:39,753:      pdf_renderer.py:  470: printSegment: This is the only change in the file.
+   DEBUG: 2025-01-17 22:59:39,753:      pdf_renderer.py:  470: printSegment: Explanation of the Change
+   DEBUG: 2025-01-17 22:59:39,754:      pdf_renderer.py:  470: printSegment: The single change is:
+   DEBUG: 2025-01-17 22:59:39,754:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,754:      pdf_renderer.py:  470: printSegment: Original Line:
+   DEBUG: 2025-01-17 22:59:39,755:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-01-17 22:59:39,755:      pdf_renderer.py:  470: printSegment: 4. 85% - special characters from any four sets
+   DEBUG: 2025-01-17 22:59:39,755:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,756:      pdf_renderer.py:  470: printSegment: New Line:
+   DEBUG: 2025-01-17 22:59:39,756:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-01-17 22:59:39,757:      pdf_renderer.py:  470: printSegment: 4. 85% - Characters from any four sets
+   DEBUG: 2025-01-17 22:59:39,757:      pdf_renderer.py:  470: printSegment: The key word that has been changed is 
+   DEBUG: 2025-01-17 22:59:39,757:      pdf_renderer.py:  470: printSegment: special characters
+   DEBUG: 2025-01-17 22:59:39,758:      pdf_renderer.py:  470: printSegment:  to 
+   DEBUG: 2025-01-17 22:59:39,758:      pdf_renderer.py:  470: printSegment: Characters
+   DEBUG: 2025-01-17 22:59:39,765:      pdf_renderer.py:  470: printSegment: . This is very important and it
+   DEBUG: 2025-01-17 22:59:39,770:      pdf_renderer.py:  470: printSegment: changes the whole meaning. It was saying that to achieve 85% password strength, the password needs special
+   DEBUG: 2025-01-17 22:59:39,770:      pdf_renderer.py:  470: printSegment: characters from any four sets. However, with the new changes, it is saying that it needs 
+   DEBUG: 2025-01-17 22:59:39,771:      pdf_renderer.py:  470: printSegment: Characters
+   DEBUG: 2025-01-17 22:59:39,773:      pdf_renderer.py:  470: printSegment:  from any
+   DEBUG: 2025-01-17 22:59:39,773:      pdf_renderer.py:  470: printSegment: four sets, this means it can be any character from those sets and not just special characters.
+   DEBUG: 2025-01-17 22:59:39,774:      pdf_renderer.py:  470: printSegment: Password Strength Logic (Based on README.md)
+   DEBUG: 2025-01-17 22:59:39,774:      pdf_renderer.py:  470: printSegment: The 
+   DEBUG: 2025-01-17 22:59:39,774:      pdf_renderer.py:  470: printSegment: README.md
+   DEBUG: 2025-01-17 22:59:39,775:      pdf_renderer.py:  470: printSegment:  file describes how password strength is calculated. It doesn
+   DEBUG: 2025-01-17 22:59:39,775:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:39,777:      pdf_renderer.py:  470: printSegment: t contain code that generates a
+   DEBUG: 2025-01-17 22:59:39,777:      pdf_renderer.py:  470: printSegment: password, but it lays out the rules used to evaluate a password
+   DEBUG: 2025-01-17 22:59:39,778:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:39,778:      pdf_renderer.py:  470: printSegment: s strength which informs how a password could be
+   DEBUG: 2025-01-17 22:59:39,779:      pdf_renderer.py:  470: printSegment: generated. Here
+   DEBUG: 2025-01-17 22:59:39,779:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:39,780:      pdf_renderer.py:  470: printSegment: s a breakdown:
+   DEBUG: 2025-01-17 22:59:39,780:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-01-17 22:59:39,780:      pdf_renderer.py:  470: printSegment: Character Sets:
+   DEBUG: 2025-01-17 22:59:39,781:      pdf_renderer.py:  470: printSegment:  The password generation relies on the idea of different 
+   DEBUG: 2025-01-17 22:59:39,781:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-01-17 22:59:39,782:      pdf_renderer.py:  470: printSegment: character sets
+   DEBUG: 2025-01-17 22:59:39,782:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-01-17 22:59:39,783:      pdf_renderer.py:  470: printSegment: . These sets
+   DEBUG: 2025-01-17 22:59:39,783:      pdf_renderer.py:  470: printSegment: might include:
+   DEBUG: 2025-01-17 22:59:39,783:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,784:      pdf_renderer.py:  470: printSegment: Lowercase letters (a-z)
+   DEBUG: 2025-01-17 22:59:39,784:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,785:      pdf_renderer.py:  470: printSegment: Uppercase letters (A-Z)
+   DEBUG: 2025-01-17 22:59:39,785:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,785:      pdf_renderer.py:  470: printSegment: Numbers (0-9)
+   DEBUG: 2025-01-17 22:59:39,786:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,786:      pdf_renderer.py:  470: printSegment: Special characters (
+   DEBUG: 2025-01-17 22:59:39,786:      pdf_renderer.py:  470: printSegment: !
+   DEBUG: 2025-01-17 22:59:39,787:      pdf_renderer.py:  470: printSegment: @#$%^
+   DEBUG: 2025-01-17 22:59:39,787:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-01-17 22:59:39,787:      pdf_renderer.py:  470: printSegment: *
+   DEBUG: 2025-01-17 22:59:39,788:      pdf_renderer.py:  470: printSegment: )
+   DEBUG: 2025-01-17 22:59:39,788:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-01-17 22:59:39,789:      pdf_renderer.py:  470: printSegment: Strength Levels:
+   DEBUG: 2025-01-17 22:59:39,789:      pdf_renderer.py:  470: printSegment:  The strength of the password is determined by how many of these character sets it
+   DEBUG: 2025-01-17 22:59:39,790:      pdf_renderer.py:  470: printSegment: uses:
+   DEBUG: 2025-01-17 22:59:39,790:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,791:      pdf_renderer.py:  470: printSegment: 50%:
+   DEBUG: 2025-01-17 22:59:39,791:      pdf_renderer.py:  470: printSegment:  Only characters from 
+   DEBUG: 2025-01-17 22:59:39,792:      pdf_renderer.py:  470: printSegment: one
+   DEBUG: 2025-01-17 22:59:39,793:      pdf_renderer.py:  470: printSegment:  set. (e.g., only lowercase letters like 
+   DEBUG: 2025-01-17 22:59:39,794:      pdf_renderer.py:  470: printSegment: password
+   DEBUG: 2025-01-17 22:59:39,794:      pdf_renderer.py:  470: printSegment: )
+   DEBUG: 2025-01-17 22:59:39,795:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,795:      pdf_renderer.py:  470: printSegment: 65%:
+   DEBUG: 2025-01-17 22:59:39,795:      pdf_renderer.py:  470: printSegment:  Characters from 
+   DEBUG: 2025-01-17 22:59:39,796:      pdf_renderer.py:  470: printSegment: any two
+   DEBUG: 2025-01-17 22:59:39,796:      pdf_renderer.py:  470: printSegment:  sets (e.g., lowercase + numbers like 
+   DEBUG: 2025-01-17 22:59:39,797:      pdf_renderer.py:  470: printSegment: pass123
+   DEBUG: 2025-01-17 22:59:39,797:      pdf_renderer.py:  470: printSegment: )
+   DEBUG: 2025-01-17 22:59:39,798:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,798:      pdf_renderer.py:  470: printSegment: 75%:
+   DEBUG: 2025-01-17 22:59:39,798:      pdf_renderer.py:  470: printSegment:  Characters from 
+   DEBUG: 2025-01-17 22:59:39,799:      pdf_renderer.py:  470: printSegment: any three
+   DEBUG: 2025-01-17 22:59:39,799:      pdf_renderer.py:  470: printSegment:  sets (e.g., lowercase + numbers + uppercase like 
+   DEBUG: 2025-01-17 22:59:39,800:      pdf_renderer.py:  470: printSegment: Pas123
+   DEBUG: 2025-01-17 22:59:39,800:      pdf_renderer.py:  470: printSegment: )
+   DEBUG: 2025-01-17 22:59:39,801:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,801:      pdf_renderer.py:  470: printSegment: 85%:
+   DEBUG: 2025-01-17 22:59:39,802:      pdf_renderer.py:  470: printSegment:  Characters from 
+   DEBUG: 2025-01-17 22:59:39,802:      pdf_renderer.py:  470: printSegment: any four
+   DEBUG: 2025-01-17 22:59:39,803:      pdf_renderer.py:  470: printSegment:  sets (e.g., lowercase + numbers + uppercase +
+   DEBUG: 2025-01-17 22:59:39,803:      pdf_renderer.py:  470: printSegment: special characters like 
+   DEBUG: 2025-01-17 22:59:39,804:      pdf_renderer.py:  470: printSegment: Pas!123
+   DEBUG: 2025-01-17 22:59:39,804:      pdf_renderer.py:  470: printSegment: )
+   DEBUG: 2025-01-17 22:59:39,805:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,805:      pdf_renderer.py:  470: printSegment: 95%:
+   DEBUG: 2025-01-17 22:59:39,806:      pdf_renderer.py:  470: printSegment:  Characters from 
+   DEBUG: 2025-01-17 22:59:39,806:      pdf_renderer.py:  470: printSegment: all four sets
+   DEBUG: 2025-01-17 22:59:39,807:      pdf_renderer.py:  470: printSegment: , with each set represented, and no character
+   DEBUG: 2025-01-17 22:59:39,808:      pdf_renderer.py:  470: printSegment: repeated twice from any single set (e.g., 
+   DEBUG: 2025-01-17 22:59:39,808:      pdf_renderer.py:  470: printSegment: Pa$1wsrd
+   DEBUG: 2025-01-17 22:59:39,809:      pdf_renderer.py:  470: printSegment: )
+   DEBUG: 2025-01-17 22:59:39,809:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,810:      pdf_renderer.py:  470: printSegment: 100%:
+   DEBUG: 2025-01-17 22:59:39,810:      pdf_renderer.py:  470: printSegment:  Characters from 
+   DEBUG: 2025-01-17 22:59:39,811:      pdf_renderer.py:  470: printSegment: all four sets
+   DEBUG: 2025-01-17 22:59:39,811:      pdf_renderer.py:  470: printSegment: , with 
+   DEBUG: 2025-01-17 22:59:39,811:      pdf_renderer.py:  470: printSegment: two
+   DEBUG: 2025-01-17 22:59:39,812:      pdf_renderer.py:  470: printSegment:  characters from each set (e.g.,
+   DEBUG: 2025-01-17 22:59:39,813:      pdf_renderer.py:  470: printSegment: Pa$!12wsrd&@
+   DEBUG: 2025-01-17 22:59:39,813:      pdf_renderer.py:  470: printSegment: )
+   DEBUG: 2025-01-17 22:59:39,814:      pdf_renderer.py:  470: printSegment: Beginner-Friendly Explanation
+   DEBUG: 2025-01-17 22:59:39,814:      pdf_renderer.py:  470: printSegment: Imagine you have different buckets of Lego bricks:
+   DEBUG: 2025-01-17 22:59:39,815:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,816:      pdf_renderer.py:  470: printSegment: One bucket for small red bricks (lowercase letters)
+   DEBUG: 2025-01-17 22:59:39,816:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,816:      pdf_renderer.py:  470: printSegment: One bucket for tall blue bricks (uppercase letters)
+   DEBUG: 2025-01-17 22:59:39,817:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,817:      pdf_renderer.py:  470: printSegment: One bucket for round yellow bricks (numbers)
+   DEBUG: 2025-01-17 22:59:39,817:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,818:      pdf_renderer.py:  470: printSegment: One bucket for small green special bricks (special characters)
+   DEBUG: 2025-01-17 22:59:39,818:      pdf_renderer.py:  470: printSegment: The password strength is determined by how many different buckets you use in making your structure (password):
+   DEBUG: 2025-01-17 22:59:39,818:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,819:      pdf_renderer.py:  470: printSegment: Using only red small bricks? Weak (50%)
+   DEBUG: 2025-01-17 22:59:39,819:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,819:      pdf_renderer.py:  470: printSegment: Using red and blue bricks?  Better (65%)
+   DEBUG: 2025-01-17 22:59:39,820:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,820:      pdf_renderer.py:  470: printSegment: Using red, blue, and yellow bricks?  Good (75%)
+   DEBUG: 2025-01-17 22:59:39,820:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,821:      pdf_renderer.py:  470: printSegment: Using all the red, blue, yellow and green bricks?  Strong (85%)
+   DEBUG: 2025-01-17 22:59:39,821:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,821:      pdf_renderer.py:  470: printSegment: Using all types of bricks, and no more than one from each type?  Very strong (95%)
+   DEBUG: 2025-01-17 22:59:39,822:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,822:      pdf_renderer.py:  470: printSegment: Using all types of bricks with two of each type?  Super strong (100%)
+   DEBUG: 2025-01-17 22:59:39,823:      pdf_renderer.py:  470: printSegment: The change we saw in the diff means that to get to the 85% level, we just need any characters from all the sets, not
+   DEBUG: 2025-01-17 22:59:39,824:      pdf_renderer.py:  470: printSegment: just the special characters.
+   DEBUG: 2025-01-17 22:59:39,824:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-01-17 22:59:39,824:      pdf_renderer.py:  470: printSegment: In summary:
+   DEBUG: 2025-01-17 22:59:39,825:      pdf_renderer.py:  470: printSegment: The 
+   DEBUG: 2025-01-17 22:59:39,825:      pdf_renderer.py:  470: printSegment: README.md
+   DEBUG: 2025-01-17 22:59:39,826:      pdf_renderer.py:  470: printSegment:  file outlines a 
+   DEBUG: 2025-01-17 22:59:39,826:      pdf_renderer.py:  470: printSegment: rule-based
+   DEBUG: 2025-01-17 22:59:39,827:      pdf_renderer.py:  470: printSegment:  system for determining password strength. The password generation
+   DEBUG: 2025-01-17 22:59:39,828:      pdf_renderer.py:  470: printSegment: logic is not directly in 
+   DEBUG: 2025-01-17 22:59:39,828:      pdf_renderer.py:  470: printSegment: README.md
+   DEBUG: 2025-01-17 22:59:39,832:      pdf_renderer.py:  470: printSegment:  itself, but it gives us the blueprint for how a password should be generated to
+   DEBUG: 2025-01-17 22:59:39,833:      pdf_renderer.py:  470: printSegment: meet a specific strength. The change we see modifies the requirement for 85% password strength from 
+   DEBUG: 2025-01-17 22:59:39,833:      pdf_renderer.py:  470: printSegment: special
+   DEBUG: 2025-01-17 22:59:39,833:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2025-01-17 22:59:39,834:      pdf_renderer.py:  470: printSegment: characters to just any 
+   DEBUG: 2025-01-17 22:59:39,834:      pdf_renderer.py:  470: printSegment: characters
+   DEBUG: 2025-01-17 22:59:39,834:      pdf_renderer.py:  470: printSegment:  from four sets.
+   DEBUG: 2025-01-17 22:59:39,835:      pdf_renderer.py:  470: printSegment: Okay, let
+   DEBUG: 2025-01-17 22:59:39,835:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:39,836:      pdf_renderer.py:  470: printSegment: s break down this git diff and what it tells us about the password generator project.
+   DEBUG: 2025-01-17 22:59:39,836:      pdf_renderer.py:  470: printSegment: Understanding Git Diffs
+   DEBUG: 2025-01-17 22:59:39,837:      pdf_renderer.py:  470: printSegment: Before diving into the code explanation, it
+   DEBUG: 2025-01-17 22:59:39,837:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:39,837:      pdf_renderer.py:  470: printSegment: s helpful to understand what a 
+   DEBUG: 2025-01-17 22:59:39,838:      pdf_renderer.py:  470: printSegment: git diff
+   DEBUG: 2025-01-17 22:59:39,839:      pdf_renderer.py:  470: printSegment:  shows. In simple terms, it
+   DEBUG: 2025-01-17 22:59:39,840:      pdf_renderer.py:  470: printSegment: shows the changes between two versions of a file.
+   DEBUG: 2025-01-17 22:59:39,840:      pdf_renderer.py:  470: printSegment: Here
+   DEBUG: 2025-01-17 22:59:39,840:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:39,841:      pdf_renderer.py:  470: printSegment: s what the provided diff means:
+   DEBUG: 2025-01-17 22:59:39,841:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,841:      pdf_renderer.py:  470: printSegment: diff --git a/README.md b/README.md
+   DEBUG: 2025-01-17 22:59:39,842:      pdf_renderer.py:  470: printSegment: : This line indicates that the file 
+   DEBUG: 2025-01-17 22:59:39,842:      pdf_renderer.py:  470: printSegment: README.md
+   DEBUG: 2025-01-17 22:59:39,843:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2025-01-17 22:59:39,843:      pdf_renderer.py:  470: printSegment: was modified. 
+   DEBUG: 2025-01-17 22:59:39,843:      pdf_renderer.py:  470: printSegment: a/README.md
+   DEBUG: 2025-01-17 22:59:39,844:      pdf_renderer.py:  470: printSegment:  refers to the original version, and 
+   DEBUG: 2025-01-17 22:59:39,844:      pdf_renderer.py:  470: printSegment: b/README.md
+   DEBUG: 2025-01-17 22:59:39,845:      pdf_renderer.py:  470: printSegment:  refers to the
+   DEBUG: 2025-01-17 22:59:39,845:      pdf_renderer.py:  470: printSegment: modified version.
+   DEBUG: 2025-01-17 22:59:39,845:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,846:      pdf_renderer.py:  470: printSegment: index 8c5b92d..4d07324
+   DEBUG: 2025-01-17 22:59:39,846:      pdf_renderer.py:  470: printSegment: : This is a unique identifier for the changes. You don
+   DEBUG: 2025-01-17 22:59:39,847:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:39,847:      pdf_renderer.py:  470: printSegment: t need to
+   DEBUG: 2025-01-17 22:59:39,848:      pdf_renderer.py:  470: printSegment: worry about this for now.
+   DEBUG: 2025-01-17 22:59:39,848:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,848:      pdf_renderer.py:  470: printSegment: --- a/README.md
+   DEBUG: 2025-01-17 22:59:39,849:      pdf_renderer.py:  470: printSegment: : This line indicates that the content of the original 
+   DEBUG: 2025-01-17 22:59:39,849:      pdf_renderer.py:  470: printSegment: README.md
+   DEBUG: 2025-01-17 22:59:39,850:      pdf_renderer.py:  470: printSegment:  file is about
+   DEBUG: 2025-01-17 22:59:39,850:      pdf_renderer.py:  470: printSegment: to be shown.
+   DEBUG: 2025-01-17 22:59:39,851:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,851:      pdf_renderer.py:  470: printSegment: +++ b/README.md
+   DEBUG: 2025-01-17 22:59:39,852:      pdf_renderer.py:  470: printSegment: : This line indicates that the content of the modified 
+   DEBUG: 2025-01-17 22:59:39,852:      pdf_renderer.py:  470: printSegment: README.md
+   DEBUG: 2025-01-17 22:59:39,852:      pdf_renderer.py:  470: printSegment:  file is about
+   DEBUG: 2025-01-17 22:59:39,853:      pdf_renderer.py:  470: printSegment: to be shown.
+   DEBUG: 2025-01-17 22:59:39,853:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,854:      pdf_renderer.py:  470: printSegment: - ...
+   DEBUG: 2025-01-17 22:59:39,854:      pdf_renderer.py:  470: printSegment: : Lines starting with a minus sign (
+   DEBUG: 2025-01-17 22:59:39,855:      pdf_renderer.py:  470: printSegment: -
+   DEBUG: 2025-01-17 22:59:39,855:      pdf_renderer.py:  470: printSegment: ) were removed from the original file.
+   DEBUG: 2025-01-17 22:59:39,855:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,856:      pdf_renderer.py:  470: printSegment: + ...
+   DEBUG: 2025-01-17 22:59:39,856:      pdf_renderer.py:  470: printSegment: : Lines starting with a plus sign (
+   DEBUG: 2025-01-17 22:59:39,857:      pdf_renderer.py:  470: printSegment: +
+   DEBUG: 2025-01-17 22:59:39,857:      pdf_renderer.py:  470: printSegment: ) were added to the modified file.
+   DEBUG: 2025-01-17 22:59:39,858:      pdf_renderer.py:  470: printSegment: Analysis of Changes in README.md
+   DEBUG: 2025-01-17 22:59:39,858:      pdf_renderer.py:  470: printSegment: Looking at the diff, we can see that the primary change was in the way the character sets are listed:
+   DEBUG: 2025-01-17 22:59:39,859:      pdf_renderer.py:  470: printSegment: Original version:
+   DEBUG: 2025-01-17 22:59:39,859:      pdf_renderer.py:  470: printSegment: We have considered the following sets of characters:
+   DEBUG: 2025-01-17 22:59:39,860:      pdf_renderer.py:  470: printSegment: set 1: numbers
+   DEBUG: 2025-01-17 22:59:39,860:      pdf_renderer.py:  470: printSegment: set 2: lower case alphabets
+   DEBUG: 2025-01-17 22:59:39,861:      pdf_renderer.py:  470: printSegment: set 3: upper case alphabets
+   DEBUG: 2025-01-17 22:59:39,861:      pdf_renderer.py:  470: printSegment: set 4: ? + = - (special char 1)
+   DEBUG: 2025-01-17 22:59:39,862:      pdf_renderer.py:  470: printSegment: set 5: @ # $ ! (special char 2)
+   DEBUG: 2025-01-17 22:59:39,862:      pdf_renderer.py:  470: printSegment: Modified version:
+   DEBUG: 2025-01-17 22:59:39,863:      pdf_renderer.py:  470: printSegment: We have considered the following sets of characters:
+   DEBUG: 2025-01-17 22:59:39,863:      pdf_renderer.py:  470: printSegment: 1. set 1: numbers
+   DEBUG: 2025-01-17 22:59:39,864:      pdf_renderer.py:  470: printSegment: 2. set 2: lower case alphabets
+   DEBUG: 2025-01-17 22:59:39,864:      pdf_renderer.py:  470: printSegment: 3. set 3: upper case alphabets
+   DEBUG: 2025-01-17 22:59:39,864:      pdf_renderer.py:  470: printSegment: 4. set 4: ? + = - (special char 1)
+   DEBUG: 2025-01-17 22:59:39,865:      pdf_renderer.py:  470: printSegment: 5. set 5: @ # $ ! (special char 2)
+   DEBUG: 2025-01-17 22:59:39,865:      pdf_renderer.py:  470: printSegment: Explanation of the Changes
+   DEBUG: 2025-01-17 22:59:39,865:      pdf_renderer.py:  470: printSegment: The change is very minor; it
+   DEBUG: 2025-01-17 22:59:39,866:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:39,866:      pdf_renderer.py:  470: printSegment: s simply adding an ordered list prefixing 
+   DEBUG: 2025-01-17 22:59:39,866:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-01-17 22:59:39,867:      pdf_renderer.py:  470: printSegment: 1.
+   DEBUG: 2025-01-17 22:59:39,867:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-01-17 22:59:39,867:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:39,867:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-01-17 22:59:39,868:      pdf_renderer.py:  470: printSegment: 2.
+   DEBUG: 2025-01-17 22:59:39,868:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-01-17 22:59:39,868:      pdf_renderer.py:  470: printSegment: , etc. to each of the character set
+   DEBUG: 2025-01-17 22:59:39,868:      pdf_renderer.py:  470: printSegment: descriptions.
+   DEBUG: 2025-01-17 22:59:39,869:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-01-17 22:59:39,870:      pdf_renderer.py:  470: printSegment: This makes the list more formal and well-structured than the previous version. Here is an explanation
+   DEBUG: 2025-01-17 22:59:39,870:      pdf_renderer.py:  470: printSegment: of character sets:
+   DEBUG: 2025-01-17 22:59:39,870:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,871:      pdf_renderer.py:  470: printSegment: Set 1: Numbers:
+   DEBUG: 2025-01-17 22:59:39,871:      pdf_renderer.py:  470: printSegment:   This set includes digits from 0 to 9 (e.g., 0, 1, 2, 3, 4, 5, 6, 7, 8, 9).
+   DEBUG: 2025-01-17 22:59:39,872:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,872:      pdf_renderer.py:  470: printSegment: Set 2: Lower Case Alphabets:
+   DEBUG: 2025-01-17 22:59:39,873:      pdf_renderer.py:  470: printSegment:  This set includes all lowercase letters of the English alphabet (e.g.,
+   DEBUG: 2025-01-17 22:59:39,874:      pdf_renderer.py:  470: printSegment: a, b, c, ..., x, y, z).
+   DEBUG: 2025-01-17 22:59:39,874:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,874:      pdf_renderer.py:  470: printSegment: Set 3: Upper Case Alphabets:
+   DEBUG: 2025-01-17 22:59:39,876:      pdf_renderer.py:  470: printSegment:  This set includes all uppercase letters of the English alphabet (e.g.,
+   DEBUG: 2025-01-17 22:59:39,876:      pdf_renderer.py:  470: printSegment: A, B, C, ..., X, Y, Z).
+   DEBUG: 2025-01-17 22:59:39,876:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,877:      pdf_renderer.py:  470: printSegment: Set 4: Special Characters 1:
+   DEBUG: 2025-01-17 22:59:39,877:      pdf_renderer.py:  470: printSegment:  This set includes characters like question mark (
+   DEBUG: 2025-01-17 22:59:39,877:      pdf_renderer.py:  470: printSegment: ?
+   DEBUG: 2025-01-17 22:59:39,878:      pdf_renderer.py:  470: printSegment: ), plus sign (
+   DEBUG: 2025-01-17 22:59:39,878:      pdf_renderer.py:  470: printSegment: +
+   DEBUG: 2025-01-17 22:59:39,878:      pdf_renderer.py:  470: printSegment: ),
+   DEBUG: 2025-01-17 22:59:39,879:      pdf_renderer.py:  470: printSegment: equals sign (
+   DEBUG: 2025-01-17 22:59:39,879:      pdf_renderer.py:  470: printSegment: =
+   DEBUG: 2025-01-17 22:59:39,879:      pdf_renderer.py:  470: printSegment: ), and minus sign (
+   DEBUG: 2025-01-17 22:59:39,880:      pdf_renderer.py:  470: printSegment: -
+   DEBUG: 2025-01-17 22:59:39,880:      pdf_renderer.py:  470: printSegment: ).
+   DEBUG: 2025-01-17 22:59:39,880:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,881:      pdf_renderer.py:  470: printSegment: Set 5: Special Characters 2:
+   DEBUG: 2025-01-17 22:59:39,881:      pdf_renderer.py:  470: printSegment:  This set includes characters like at sign (
+   DEBUG: 2025-01-17 22:59:39,881:      pdf_renderer.py:  470: printSegment: @
+   DEBUG: 2025-01-17 22:59:39,882:      pdf_renderer.py:  470: printSegment: ), hash or pound sign (
+   DEBUG: 2025-01-17 22:59:39,882:      pdf_renderer.py:  470: printSegment: #
+   DEBUG: 2025-01-17 22:59:39,882:      pdf_renderer.py:  470: printSegment: ),
+   DEBUG: 2025-01-17 22:59:39,883:      pdf_renderer.py:  470: printSegment: dollar sign (
+   DEBUG: 2025-01-17 22:59:39,883:      pdf_renderer.py:  470: printSegment: $
+   DEBUG: 2025-01-17 22:59:39,884:      pdf_renderer.py:  470: printSegment: ), and exclamation mark (
+   DEBUG: 2025-01-17 22:59:39,884:      pdf_renderer.py:  470: printSegment: !
+   DEBUG: 2025-01-17 22:59:39,884:      pdf_renderer.py:  470: printSegment: ).
+   DEBUG: 2025-01-17 22:59:39,885:      pdf_renderer.py:  470: printSegment: How These Character Sets Relate to Password Generation
+   DEBUG: 2025-01-17 22:59:39,885:      pdf_renderer.py:  470: printSegment: This information in the 
+   DEBUG: 2025-01-17 22:59:39,885:      pdf_renderer.py:  470: printSegment: README.md
+   DEBUG: 2025-01-17 22:59:39,892:      pdf_renderer.py:  470: printSegment:  shows that the password generator uses different types of characters to create
+   DEBUG: 2025-01-17 22:59:39,895:      pdf_renderer.py:  470: printSegment: passwords with varying strengths. By combining different sets of characters (numbers, lowercase, uppercase,
+   DEBUG: 2025-01-17 22:59:39,896:      pdf_renderer.py:  470: printSegment: special), the application is intended to produce strong and secure passwords.
+   DEBUG: 2025-01-17 22:59:39,896:      pdf_renderer.py:  470: printSegment: Password Strength Criteria
+   DEBUG: 2025-01-17 22:59:39,897:      pdf_renderer.py:  470: printSegment: The README also provides some preliminary guidelines on how the password strength will be evaluated:
+   DEBUG: 2025-01-17 22:59:39,897:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,897:      pdf_renderer.py:  470: printSegment: 50% Strength:
+   DEBUG: 2025-01-17 22:59:39,898:      pdf_renderer.py:  470: printSegment:  A password using characters from only 
+   DEBUG: 2025-01-17 22:59:39,898:      pdf_renderer.py:  470: printSegment: one
+   DEBUG: 2025-01-17 22:59:39,899:      pdf_renderer.py:  470: printSegment:  of the above sets. This implies a weak
+   DEBUG: 2025-01-17 22:59:39,899:      pdf_renderer.py:  470: printSegment: password.
+   DEBUG: 2025-01-17 22:59:39,900:      pdf_renderer.py:  470: printSegment: Key Takeaways
+   DEBUG: 2025-01-17 22:59:39,900:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,901:      pdf_renderer.py:  470: printSegment: The README.md document outlines the character sets that the random password generator will
+   DEBUG: 2025-01-17 22:59:39,901:      pdf_renderer.py:  470: printSegment: use.
+   DEBUG: 2025-01-17 22:59:39,902:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,904:      pdf_renderer.py:  470: printSegment: This first diff provides context to the project, it is intended to generate random passwords, but the
+   DEBUG: 2025-01-17 22:59:39,905:      pdf_renderer.py:  470: printSegment: actual code to generate the passwords is not in this diff.
+   DEBUG: 2025-01-17 22:59:39,905:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,906:      pdf_renderer.py:  470: printSegment: Password strength is defined based on the diversity of character sets used.
+   DEBUG: 2025-01-17 22:59:39,906:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,907:      pdf_renderer.py:  470: printSegment: The ordered list format makes the document easier to read.
+   DEBUG: 2025-01-17 22:59:39,907:      pdf_renderer.py:  470: printSegment: What
+   DEBUG: 2025-01-17 22:59:39,908:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:39,908:      pdf_renderer.py:  470: printSegment: s Next?
+   DEBUG: 2025-01-17 22:59:39,914:      pdf_renderer.py:  470: printSegment: This is just the beginning of understanding how this password generator is going to work. We will need more git
+   DEBUG: 2025-01-17 22:59:39,915:      pdf_renderer.py:  470: printSegment: diffs of other files containing the code to understand how the random generation occurs and how it determines the
+   DEBUG: 2025-01-17 22:59:39,916:      pdf_renderer.py:  470: printSegment: password strength.
+   DEBUG: 2025-01-17 22:59:39,916:      pdf_renderer.py:  470: printSegment: Let me know if you have any other questions or diffs to examine
+   DEBUG: 2025-01-17 22:59:39,917:      pdf_renderer.py:  470: printSegment: !
+   DEBUG: 2025-01-17 22:59:39,917:      pdf_renderer.py:  470: printSegment: # Explanation of Password Generation Code
+   DEBUG: 2025-01-17 22:59:39,920:      pdf_renderer.py:  470: printSegment: This document provides a beginner-friendly explanation of the C
+   DEBUG: 2025-01-17 22:59:39,921:      pdf_renderer.py:  470: printSegment: code provided in the git diff, focusing on how the password
+   DEBUG: 2025-01-17 22:59:39,921:      pdf_renderer.py:  470: printSegment: generation works.
+   DEBUG: 2025-01-17 22:59:39,922:      pdf_renderer.py:  470: printSegment: ## Overview
+   DEBUG: 2025-01-17 22:59:39,922:      pdf_renderer.py:  470: printSegment: The code implements a program that:
+   DEBUG: 2025-01-17 22:59:39,922:      pdf_renderer.py:  470: printSegment: 1.  **Checks user-provided password:**
+   DEBUG: 2025-01-17 22:59:39,923:      pdf_renderer.py:  470: printSegment:     *   Ensures it's 10 characters long and doesn't contain certain
+   DEBUG: 2025-01-17 22:59:39,923:      pdf_renderer.py:  470: printSegment: special characters.
+   DEBUG: 2025-01-17 22:59:39,924:      pdf_renderer.py:  470: printSegment:     *   Calculates and displays password strength based on
+   DEBUG: 2025-01-17 22:59:39,924:      pdf_renderer.py:  470: printSegment: character variety.
+   DEBUG: 2025-01-17 22:59:39,924:      pdf_renderer.py:  470: printSegment: 2.  **Generates a random 10-character password:**
+   DEBUG: 2025-01-17 22:59:39,927:      pdf_renderer.py:  470: printSegment:     *   If the user's password is not strong enough or if the user
+   DEBUG: 2025-01-17 22:59:39,927:      pdf_renderer.py:  470: printSegment: chooses to generate a password, the program generates a strong,
+   DEBUG: 2025-01-17 22:59:39,927:      pdf_renderer.py:  470: printSegment: random password.
+   DEBUG: 2025-01-17 22:59:39,928:      pdf_renderer.py:  470: printSegment: ## Code Breakdown
+   DEBUG: 2025-01-17 22:59:39,928:      pdf_renderer.py:  470: printSegment: ### 1. Header Includes
+   DEBUG: 2025-01-17 22:59:39,928:      pdf_renderer.py:  470: printSegment: ```c
+   DEBUG: 2025-01-17 22:59:39,928:      pdf_renderer.py:  470: printSegment: #include <stdio.h>
+   DEBUG: 2025-01-17 22:59:39,929:      pdf_renderer.py:  470: printSegment: #include <string.h>
+   DEBUG: 2025-01-17 22:59:39,929:      pdf_renderer.py:  470: printSegment: #include <stdlib.h>
+   DEBUG: 2025-01-17 22:59:39,929:      pdf_renderer.py:  470: printSegment: #include <time.h>
+   DEBUG: 2025-01-17 22:59:39,929:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,930:      pdf_renderer.py:  470: printSegment: stdio.h
+   DEBUG: 2025-01-17 22:59:39,930:      pdf_renderer.py:  470: printSegment: : Standard input/output library for functions like 
+   DEBUG: 2025-01-17 22:59:39,931:      pdf_renderer.py:  470: printSegment: printf
+   DEBUG: 2025-01-17 22:59:39,931:      pdf_renderer.py:  470: printSegment:  (printing to the console) and 
+   DEBUG: 2025-01-17 22:59:39,931:      pdf_renderer.py:  470: printSegment: scanf
+   DEBUG: 2025-01-17 22:59:39,932:      pdf_renderer.py:  470: printSegment:  (reading from the console).
+   DEBUG: 2025-01-17 22:59:39,932:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,932:      pdf_renderer.py:  470: printSegment: string.h
+   DEBUG: 2025-01-17 22:59:39,933:      pdf_renderer.py:  470: printSegment: : String manipulation library, containing functions like 
+   DEBUG: 2025-01-17 22:59:39,933:      pdf_renderer.py:  470: printSegment: strlen
+   DEBUG: 2025-01-17 22:59:39,933:      pdf_renderer.py:  470: printSegment:  (calculating string
+   DEBUG: 2025-01-17 22:59:39,934:      pdf_renderer.py:  470: printSegment: length) and 
+   DEBUG: 2025-01-17 22:59:39,934:      pdf_renderer.py:  470: printSegment: strchr
+   DEBUG: 2025-01-17 22:59:39,934:      pdf_renderer.py:  470: printSegment:  (locating characters in a string).
+   DEBUG: 2025-01-17 22:59:39,935:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,935:      pdf_renderer.py:  470: printSegment: stdlib.h
+   DEBUG: 2025-01-17 22:59:39,935:      pdf_renderer.py:  470: printSegment: : Standard library, which includes general-purpose functions, like 
+   DEBUG: 2025-01-17 22:59:39,936:      pdf_renderer.py:  470: printSegment: rand
+   DEBUG: 2025-01-17 22:59:39,936:      pdf_renderer.py:  470: printSegment:  (generating
+   DEBUG: 2025-01-17 22:59:39,936:      pdf_renderer.py:  470: printSegment: random numbers), 
+   DEBUG: 2025-01-17 22:59:39,937:      pdf_renderer.py:  470: printSegment: srand
+   DEBUG: 2025-01-17 22:59:39,937:      pdf_renderer.py:  470: printSegment:  (seeding random number generator), and 
+   DEBUG: 2025-01-17 22:59:39,937:      pdf_renderer.py:  470: printSegment: system
+   DEBUG: 2025-01-17 22:59:39,938:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:39,938:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,938:      pdf_renderer.py:  470: printSegment: time.h
+   DEBUG: 2025-01-17 22:59:39,939:      pdf_renderer.py:  470: printSegment: : Time library, which provides functions for dealing with time such as 
+   DEBUG: 2025-01-17 22:59:39,939:      pdf_renderer.py:  470: printSegment: time
+   DEBUG: 2025-01-17 22:59:39,940:      pdf_renderer.py:  470: printSegment: , used for
+   DEBUG: 2025-01-17 22:59:39,940:      pdf_renderer.py:  470: printSegment: creating a random number seed.
+   DEBUG: 2025-01-17 22:59:39,941:      pdf_renderer.py:  470: printSegment: 2. 
+   DEBUG: 2025-01-17 22:59:39,942:      pdf_renderer.py:  470: printSegment: swap
+   DEBUG: 2025-01-17 22:59:39,943:      pdf_renderer.py:  470: printSegment:  function
+   DEBUG: 2025-01-17 22:59:39,943:      pdf_renderer.py:  470: printSegment: void swap (char *p1, char*p2)
+   DEBUG: 2025-01-17 22:59:39,944:      pdf_renderer.py:  470: printSegment: {
+   DEBUG: 2025-01-17 22:59:39,944:      pdf_renderer.py:  470: printSegment:     char temp = *p1;
+   DEBUG: 2025-01-17 22:59:39,944:      pdf_renderer.py:  470: printSegment:     *p1 = *p2;
+   DEBUG: 2025-01-17 22:59:39,945:      pdf_renderer.py:  470: printSegment:     *p2 = temp;
+   DEBUG: 2025-01-17 22:59:39,945:      pdf_renderer.py:  470: printSegment: }
+   DEBUG: 2025-01-17 22:59:39,945:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,946:      pdf_renderer.py:  470: printSegment: This function takes two character pointers as input and swaps the characters they point to. It uses a
+   DEBUG: 2025-01-17 22:59:39,947:      pdf_renderer.py:  470: printSegment: temporary variable 
+   DEBUG: 2025-01-17 22:59:39,947:      pdf_renderer.py:  470: printSegment: temp
+   DEBUG: 2025-01-17 22:59:39,948:      pdf_renderer.py:  470: printSegment:  for this swapping process.
+   DEBUG: 2025-01-17 22:59:39,948:      pdf_renderer.py:  470: printSegment: 3. 
+   DEBUG: 2025-01-17 22:59:39,948:      pdf_renderer.py:  470: printSegment: shuffle
+   DEBUG: 2025-01-17 22:59:39,949:      pdf_renderer.py:  470: printSegment:  function
+   DEBUG: 2025-01-17 22:59:39,949:      pdf_renderer.py:  470: printSegment: void shuffle(char *arr, int n)
+   DEBUG: 2025-01-17 22:59:39,949:      pdf_renderer.py:  470: printSegment: {
+   DEBUG: 2025-01-17 22:59:39,950:      pdf_renderer.py:  470: printSegment:     srand((unsigned int)(time(NULL)));
+   DEBUG: 2025-01-17 22:59:39,950:      pdf_renderer.py:  470: printSegment:     int i;
+   DEBUG: 2025-01-17 22:59:39,951:      pdf_renderer.py:  470: printSegment:     for (i = n - 1; i > 0; i--)
+   DEBUG: 2025-01-17 22:59:39,951:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:39,951:      pdf_renderer.py:  470: printSegment:         int j = rand() % (i + 1);
+   DEBUG: 2025-01-17 22:59:39,952:      pdf_renderer.py:  470: printSegment:         swap(&arr[i], &arr[j]);
+   DEBUG: 2025-01-17 22:59:39,952:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:39,952:      pdf_renderer.py:  470: printSegment: }
+   DEBUG: 2025-01-17 22:59:39,953:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,953:      pdf_renderer.py:  470: printSegment: This function takes a character array 
+   DEBUG: 2025-01-17 22:59:39,954:      pdf_renderer.py:  470: printSegment: arr
+   DEBUG: 2025-01-17 22:59:39,954:      pdf_renderer.py:  470: printSegment:  and its size 
+   DEBUG: 2025-01-17 22:59:39,954:      pdf_renderer.py:  470: printSegment: n
+   DEBUG: 2025-01-17 22:59:39,955:      pdf_renderer.py:  470: printSegment:  as input.
+   DEBUG: 2025-01-17 22:59:39,955:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,955:      pdf_renderer.py:  470: printSegment: It shuffles the characters of the array in random order.
+   DEBUG: 2025-01-17 22:59:39,955:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,956:      pdf_renderer.py:  470: printSegment: It does this by iterating through the array from end to start, and for each element, it generates a
+   DEBUG: 2025-01-17 22:59:39,957:      pdf_renderer.py:  470: printSegment: random index 
+   DEBUG: 2025-01-17 22:59:39,957:      pdf_renderer.py:  470: printSegment: j
+   DEBUG: 2025-01-17 22:59:39,957:      pdf_renderer.py:  470: printSegment:  and swaps the current element with the element at the randomly generated index 
+   DEBUG: 2025-01-17 22:59:39,958:      pdf_renderer.py:  470: printSegment: j
+   DEBUG: 2025-01-17 22:59:39,958:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:39,958:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,959:      pdf_renderer.py:  470: printSegment: srand((unsigned int)(time(NULL)))
+   DEBUG: 2025-01-17 22:59:39,960:      pdf_renderer.py:  470: printSegment:  is used to seed the random number generator
+   DEBUG: 2025-01-17 22:59:39,961:      pdf_renderer.py:  470: printSegment: which makes sure a different random order each time the program is run.
+   DEBUG: 2025-01-17 22:59:39,961:      pdf_renderer.py:  470: printSegment: 4. 
+   DEBUG: 2025-01-17 22:59:39,962:      pdf_renderer.py:  470: printSegment: generate_password
+   DEBUG: 2025-01-17 22:59:39,962:      pdf_renderer.py:  470: printSegment:  Function
+   DEBUG: 2025-01-17 22:59:39,962:      pdf_renderer.py:  470: printSegment: void generate_password()
+   DEBUG: 2025-01-17 22:59:39,963:      pdf_renderer.py:  470: printSegment: { 
+   DEBUG: 2025-01-17 22:59:39,963:      pdf_renderer.py:  470: printSegment:     //creating arrays for different sets of characters
+   DEBUG: 2025-01-17 22:59:39,963:      pdf_renderer.py:  470: printSegment:     char numbers[] = "0123456789"; 
+   DEBUG: 2025-01-17 22:59:39,964:      pdf_renderer.py:  470: printSegment:     char lower_case[] = "abcdefghijklmnoqprstuvwyzx"; 
+   DEBUG: 2025-01-17 22:59:39,964:      pdf_renderer.py:  470: printSegment:     char upper_case[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX"; 
+   DEBUG: 2025-01-17 22:59:39,965:      pdf_renderer.py:  470: printSegment:     char special_char1[] = "?-+=";
+   DEBUG: 2025-01-17 22:59:39,965:      pdf_renderer.py:  470: printSegment:     char special_char2[] = "!@#$";
+   DEBUG: 2025-01-17 22:59:39,966:      pdf_renderer.py:  470: printSegment:     char password[11]; //to store the generated password, 11 to
+   DEBUG: 2025-01-17 22:59:39,966:      pdf_renderer.py:  470: printSegment: hold null terminating char
+   DEBUG: 2025-01-17 22:59:39,967:      pdf_renderer.py:  470: printSegment:     
+   DEBUG: 2025-01-17 22:59:39,967:      pdf_renderer.py:  470: printSegment:     //picking 2 characters from each of the character sets
+   DEBUG: 2025-01-17 22:59:39,967:      pdf_renderer.py:  470: printSegment:     for (int i=0; i<2; i++)
+   DEBUG: 2025-01-17 22:59:39,968:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:39,968:      pdf_renderer.py:  470: printSegment:         password[i] = numbers[rand()%strlen(numbers)];
+   DEBUG: 2025-01-17 22:59:39,968:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:39,969:      pdf_renderer.py:  470: printSegment:     for (int i=2; i<4; i++)
+   DEBUG: 2025-01-17 22:59:39,969:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:39,969:      pdf_renderer.py:  470: printSegment:         password[i] = lower_case[rand()%strlen(lower_case)];
+   DEBUG: 2025-01-17 22:59:39,970:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:39,970:      pdf_renderer.py:  470: printSegment:      for (int i=4; i<6; i++)
+   DEBUG: 2025-01-17 22:59:39,970:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:39,971:      pdf_renderer.py:  470: printSegment:         password[i] = upper_case[rand()%strlen(upper_case)];
+   DEBUG: 2025-01-17 22:59:39,971:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:39,972:      pdf_renderer.py:  470: printSegment:     for (int i=6; i<8; i++)
+   DEBUG: 2025-01-17 22:59:39,972:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:39,972:      pdf_renderer.py:  470: printSegment:         password[i] = special_char1[rand()%strlen(special_char1)];
+   DEBUG: 2025-01-17 22:59:39,973:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:39,973:      pdf_renderer.py:  470: printSegment:     for (int i=8; i<10; i++)
+   DEBUG: 2025-01-17 22:59:39,974:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:39,974:      pdf_renderer.py:  470: printSegment:         password[i] = special_char2[rand()%strlen(special_char2)];
+   DEBUG: 2025-01-17 22:59:39,974:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:39,975:      pdf_renderer.py:  470: printSegment:     password[10] = '\0'; // adding null terminating character
+   DEBUG: 2025-01-17 22:59:39,976:      pdf_renderer.py:  470: printSegment:     shuffle(password,10); // calling shuffle function to randomly
+   DEBUG: 2025-01-17 22:59:39,977:      pdf_renderer.py:  470: printSegment: shuffle all the characters in the array
+   DEBUG: 2025-01-17 22:59:39,977:      pdf_renderer.py:  470: printSegment:     printf("\n The suggested password is: %s", password);
+   DEBUG: 2025-01-17 22:59:39,977:      pdf_renderer.py:  470: printSegment: }
+   DEBUG: 2025-01-17 22:59:39,978:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,978:      pdf_renderer.py:  470: printSegment: This function generates a strong random password by:
+   DEBUG: 2025-01-17 22:59:39,979:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,979:      pdf_renderer.py:  470: printSegment: Defining character sets:
+   DEBUG: 2025-01-17 22:59:39,981:      pdf_renderer.py:  470: printSegment:  It creates arrays for numbers, lowercase letters, uppercase
+   DEBUG: 2025-01-17 22:59:39,981:      pdf_renderer.py:  470: printSegment: letters, and two sets of special characters.
+   DEBUG: 2025-01-17 22:59:39,982:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,982:      pdf_renderer.py:  470: printSegment: Selecting characters:
+   DEBUG: 2025-01-17 22:59:39,983:      pdf_renderer.py:  470: printSegment:  It picks two random characters from each of the character
+   DEBUG: 2025-01-17 22:59:39,983:      pdf_renderer.py:  470: printSegment: sets.
+   DEBUG: 2025-01-17 22:59:39,983:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,984:      pdf_renderer.py:  470: printSegment: Shuffling characters
+   DEBUG: 2025-01-17 22:59:39,984:      pdf_renderer.py:  470: printSegment: : It then calls the shuffle function to randomly mix the selected
+   DEBUG: 2025-01-17 22:59:39,985:      pdf_renderer.py:  470: printSegment: characters.
+   DEBUG: 2025-01-17 22:59:39,985:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:39,985:      pdf_renderer.py:  470: printSegment: Outputting password:
+   DEBUG: 2025-01-17 22:59:39,986:      pdf_renderer.py:  470: printSegment:  It prints the generated password to the console.
+   DEBUG: 2025-01-17 22:59:39,986:      pdf_renderer.py:  470: printSegment: 5. 
+   DEBUG: 2025-01-17 22:59:39,986:      pdf_renderer.py:  470: printSegment: main
+   DEBUG: 2025-01-17 22:59:39,987:      pdf_renderer.py:  470: printSegment:  Function
+   DEBUG: 2025-01-17 22:59:39,987:      pdf_renderer.py:  470: printSegment: int main()
+   DEBUG: 2025-01-17 22:59:39,988:      pdf_renderer.py:  470: printSegment: {
+   DEBUG: 2025-01-17 22:59:39,989:      pdf_renderer.py:  470: printSegment:     system("cls");                   // used to clear the screen
+   DEBUG: 2025-01-17 22:59:39,989:      pdf_renderer.py:  470: printSegment: each time the program is run
+   DEBUG: 2025-01-17 22:59:39,989:      pdf_renderer.py:  470: printSegment:     char user_password[100];
+   DEBUG: 2025-01-17 22:59:39,991:      pdf_renderer.py:  470: printSegment:     printf("\n This program will tell the strength of your
+   DEBUG: 2025-01-17 22:59:39,992:      pdf_renderer.py:  470: printSegment: password, and also suggest a randomly generated 100%% strength
+   DEBUG: 2025-01-17 22:59:39,992:      pdf_renderer.py:  470: printSegment: password. ");
+   DEBUG: 2025-01-17 22:59:39,993:      pdf_renderer.py:  470: printSegment:     
+   DEBUG: 2025-01-17 22:59:39,993:      pdf_renderer.py:  470: printSegment:     //labelled as repeat
+   DEBUG: 2025-01-17 22:59:39,994:      pdf_renderer.py:  470: printSegment:     repeat: printf("\n The password should not contain the
+   DEBUG: 2025-01-17 22:59:39,994:      pdf_renderer.py:  470: printSegment: following characters:");
+   DEBUG: 2025-01-17 22:59:39,994:      pdf_renderer.py:  470: printSegment:     printf("\n '_', '/', '*', '%%', '&', '\', ';', '|', '~'.");
+   DEBUG: 2025-01-17 22:59:39,995:      pdf_renderer.py:  470: printSegment:     printf("\n The password should contain exactly 10
+   DEBUG: 2025-01-17 22:59:39,996:      pdf_renderer.py:  470: printSegment: characters.");   
+   DEBUG: 2025-01-17 22:59:39,996:      pdf_renderer.py:  470: printSegment:     printf("\n Enter your password: ");
+   DEBUG: 2025-01-17 22:59:39,996:      pdf_renderer.py:  470: printSegment:     scanf("%s", user_password);
+   DEBUG: 2025-01-17 22:59:39,997:      pdf_renderer.py:  470: printSegment:     if(strlen(user_password)!=10)
+   DEBUG: 2025-01-17 22:59:39,997:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:39,998:      pdf_renderer.py:  470: printSegment:         printf("\n Password should be 10 characters long.\n\n");
+   DEBUG: 2025-01-17 22:59:39,998:      pdf_renderer.py:  470: printSegment:         goto repeat;    //restart from the label 'repeat'
+   DEBUG: 2025-01-17 22:59:39,998:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:39,999:      pdf_renderer.py:  470: printSegment:     
+   DEBUG: 2025-01-17 22:59:40,002:      pdf_renderer.py:  470: printSegment:     if(strchr(user_password, '_')!=NULL||strchr(user_password,
+   DEBUG: 2025-01-17 22:59:40,004:      pdf_renderer.py:  470: printSegment: '/')!=NULL||strchr(user_password, '*')!=NULL||strchr(user_password,
+   DEBUG: 2025-01-17 22:59:40,005:      pdf_renderer.py:  470: printSegment: '%')!=NULL||strchr(user_password, '&')!=NULL||strchr(user_password,
+   DEBUG: 2025-01-17 22:59:40,006:      pdf_renderer.py:  470: printSegment: '\\')!=NULL||strchr(user_password,
+   DEBUG: 2025-01-17 22:59:40,006:      pdf_renderer.py:  470: printSegment: ';')!=NULL||strchr(user_password, '|')!=NULL||strchr(user_password,
+   DEBUG: 2025-01-17 22:59:40,007:      pdf_renderer.py:  470: printSegment: '~')!=NULL)
+   DEBUG: 2025-01-17 22:59:40,007:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:40,008:      pdf_renderer.py:  470: printSegment:             printf("\n Please remove the forbidden characters from
+   DEBUG: 2025-01-17 22:59:40,009:      pdf_renderer.py:  470: printSegment: the password and try again.\n\n");
+   DEBUG: 2025-01-17 22:59:40,009:      pdf_renderer.py:  470: printSegment:            goto repeat;
+   DEBUG: 2025-01-17 22:59:40,009:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:40,010:      pdf_renderer.py:  470: printSegment:     
+   DEBUG: 2025-01-17 22:59:40,010:      pdf_renderer.py:  470: printSegment:     int lower_case = 0, upper_case = 0, numbers = 0, special_char =
+   DEBUG: 2025-01-17 22:59:40,011:      pdf_renderer.py:  470: printSegment: 0;
+   DEBUG: 2025-01-17 22:59:40,011:      pdf_renderer.py:  470: printSegment:     for(int i=0; i<strlen(user_password); i++)
+   DEBUG: 2025-01-17 22:59:40,011:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:40,012:      pdf_renderer.py:  470: printSegment:         if(user_password[i]>='a' && user_password[i]<='z')
+   DEBUG: 2025-01-17 22:59:40,012:      pdf_renderer.py:  470: printSegment: lower_case=1;
+   DEBUG: 2025-01-17 22:59:40,013:      pdf_renderer.py:  470: printSegment:         else if(user_password[i]>='A' && user_password[i]<='Z')
+   DEBUG: 2025-01-17 22:59:40,013:      pdf_renderer.py:  470: printSegment: upper_case=1;
+   DEBUG: 2025-01-17 22:59:40,014:      pdf_renderer.py:  470: printSegment:         else if(user_password[i]>='0' && user_password[i]<='9')
+   DEBUG: 2025-01-17 22:59:40,014:      pdf_renderer.py:  470: printSegment: numbers=1;
+   DEBUG: 2025-01-17 22:59:40,015:      pdf_renderer.py:  470: printSegment:         else special_char=1;
+   DEBUG: 2025-01-17 22:59:40,015:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:40,016:      pdf_renderer.py:  470: printSegment:     int password_strength =
+   DEBUG: 2025-01-17 22:59:40,016:      pdf_renderer.py:  470: printSegment: lower_case+upper_case+numbers+special_char;
+   DEBUG: 2025-01-17 22:59:40,016:      pdf_renderer.py:  470: printSegment:     
+   DEBUG: 2025-01-17 22:59:40,017:      pdf_renderer.py:  470: printSegment:     printf("\n Strength of the password: %d/4", password_strength);
+   DEBUG: 2025-01-17 22:59:40,017:      pdf_renderer.py:  470: printSegment:     if(password_strength!=4)
+   DEBUG: 2025-01-17 22:59:40,017:      pdf_renderer.py:  470: printSegment:         printf("\n Your password is not 100%% strong.");
+   DEBUG: 2025-01-17 22:59:40,018:      pdf_renderer.py:  470: printSegment:     else printf("\n Your password is 100%% strong.");
+   DEBUG: 2025-01-17 22:59:40,018:      pdf_renderer.py:  470: printSegment:     
+   DEBUG: 2025-01-17 22:59:40,018:      pdf_renderer.py:  470: printSegment:     char choice;
+   DEBUG: 2025-01-17 22:59:40,019:      pdf_renderer.py:  470: printSegment:     printf("\n Do you want to generate a password? (y/n): ");
+   DEBUG: 2025-01-17 22:59:40,019:      pdf_renderer.py:  470: printSegment:     scanf(" %c", &choice);
+   DEBUG: 2025-01-17 22:59:40,019:      pdf_renderer.py:  470: printSegment:     if(choice=='y')
+   DEBUG: 2025-01-17 22:59:40,019:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:40,020:      pdf_renderer.py:  470: printSegment:         srand((unsigned int)(time(NULL))); 
+   DEBUG: 2025-01-17 22:59:40,020:      pdf_renderer.py:  470: printSegment:         generate_password();
+   DEBUG: 2025-01-17 22:59:40,020:      pdf_renderer.py:  470: printSegment:     }  
+   DEBUG: 2025-01-17 22:59:40,021:      pdf_renderer.py:  470: printSegment:     printf("\n");
+   DEBUG: 2025-01-17 22:59:40,021:      pdf_renderer.py:  470: printSegment:     return 0; 
+   DEBUG: 2025-01-17 22:59:40,021:      pdf_renderer.py:  470: printSegment: }
+   DEBUG: 2025-01-17 22:59:40,021:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,022:      pdf_renderer.py:  470: printSegment: Clears the screen
+   DEBUG: 2025-01-17 22:59:40,022:      pdf_renderer.py:  470: printSegment: : It clears the console using 
+   DEBUG: 2025-01-17 22:59:40,023:      pdf_renderer.py:  470: printSegment: system("cls")
+   DEBUG: 2025-01-17 22:59:40,023:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:40,023:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,024:      pdf_renderer.py:  470: printSegment: Prompts for password
+   DEBUG: 2025-01-17 22:59:40,024:      pdf_renderer.py:  470: printSegment: : It prompts the user to enter a password.
+   DEBUG: 2025-01-17 22:59:40,024:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,025:      pdf_renderer.py:  470: printSegment: Password Length check
+   DEBUG: 2025-01-17 22:59:40,027:      pdf_renderer.py:  470: printSegment: : The program checks the length of the entered password if it is not 10 it
+   DEBUG: 2025-01-17 22:59:40,028:      pdf_renderer.py:  470: printSegment: asks the user to enter a password again. This is done using the 
+   DEBUG: 2025-01-17 22:59:40,028:      pdf_renderer.py:  470: printSegment: goto repeat;
+   DEBUG: 2025-01-17 22:59:40,028:      pdf_renderer.py:  470: printSegment:  statement.
+   DEBUG: 2025-01-17 22:59:40,029:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,029:      pdf_renderer.py:  470: printSegment: Forbidden character check
+   DEBUG: 2025-01-17 22:59:40,030:      pdf_renderer.py:  470: printSegment: : Checks if the password contains any of the forbidden characters.
+   DEBUG: 2025-01-17 22:59:40,030:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,030:      pdf_renderer.py:  470: printSegment: Password strength check
+   DEBUG: 2025-01-17 22:59:40,040:      pdf_renderer.py:  470: printSegment: : The program then iterates through each character in the password and
+   DEBUG: 2025-01-17 22:59:40,045:      pdf_renderer.py:  470: printSegment: checks if it contains a lower case character, an upper case character, a digit and a special character.
+   DEBUG: 2025-01-17 22:59:40,046:      pdf_renderer.py:  470: printSegment: Each unique kind of character makes the password strong. Based on this the strength of the
+   DEBUG: 2025-01-17 22:59:40,047:      pdf_renderer.py:  470: printSegment: password is displayed.
+   DEBUG: 2025-01-17 22:59:40,047:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,047:      pdf_renderer.py:  470: printSegment: Generate password
+   DEBUG: 2025-01-17 22:59:40,048:      pdf_renderer.py:  470: printSegment: : Asks the user if they want a password to be generated for them. If the user
+   DEBUG: 2025-01-17 22:59:40,048:      pdf_renderer.py:  470: printSegment: inputs 
+   DEBUG: 2025-01-17 22:59:40,049:      pdf_renderer.py:  470: printSegment: y
+   DEBUG: 2025-01-17 22:59:40,049:      pdf_renderer.py:  470: printSegment:  then a 10 character strong password is generated.
+   DEBUG: 2025-01-17 22:59:40,050:      pdf_renderer.py:  470: printSegment: Key Concepts
+   DEBUG: 2025-01-17 22:59:40,050:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,050:      pdf_renderer.py:  470: printSegment: Random Number Generation:
+   DEBUG: 2025-01-17 22:59:40,051:      pdf_renderer.py:  470: printSegment:  The code uses 
+   DEBUG: 2025-01-17 22:59:40,051:      pdf_renderer.py:  470: printSegment: rand()
+   DEBUG: 2025-01-17 22:59:40,052:      pdf_renderer.py:  470: printSegment:  and 
+   DEBUG: 2025-01-17 22:59:40,052:      pdf_renderer.py:  470: printSegment: srand()
+   DEBUG: 2025-01-17 22:59:40,053:      pdf_renderer.py:  470: printSegment:  to generate random
+   DEBUG: 2025-01-17 22:59:40,053:      pdf_renderer.py:  470: printSegment: characters for the password. 
+   DEBUG: 2025-01-17 22:59:40,053:      pdf_renderer.py:  470: printSegment: srand(time(NULL))
+   DEBUG: 2025-01-17 22:59:40,054:      pdf_renderer.py:  470: printSegment:  ensures that the sequence of random numbers
+   DEBUG: 2025-01-17 22:59:40,055:      pdf_renderer.py:  470: printSegment: is different each time the program runs.
+   DEBUG: 2025-01-17 22:59:40,055:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,056:      pdf_renderer.py:  470: printSegment: String Manipulation:
+   DEBUG: 2025-01-17 22:59:40,056:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-01-17 22:59:40,056:      pdf_renderer.py:  470: printSegment: strlen()
+   DEBUG: 2025-01-17 22:59:40,057:      pdf_renderer.py:  470: printSegment:  calculates the length of a string, 
+   DEBUG: 2025-01-17 22:59:40,057:      pdf_renderer.py:  470: printSegment: strchr()
+   DEBUG: 2025-01-17 22:59:40,058:      pdf_renderer.py:  470: printSegment:  finds the presence
+   DEBUG: 2025-01-17 22:59:40,058:      pdf_renderer.py:  470: printSegment: of a character in a string.
+   DEBUG: 2025-01-17 22:59:40,059:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,059:      pdf_renderer.py:  470: printSegment: Arrays:
+   DEBUG: 2025-01-17 22:59:40,060:      pdf_renderer.py:  470: printSegment:  Character arrays (strings) are used to store character sets and the generated password.
+   DEBUG: 2025-01-17 22:59:40,060:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,061:      pdf_renderer.py:  470: printSegment: Pointers
+   DEBUG: 2025-01-17 22:59:40,061:      pdf_renderer.py:  470: printSegment: : Used in swap function for swapping the characters of a character array
+   DEBUG: 2025-01-17 22:59:40,062:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,062:      pdf_renderer.py:  470: printSegment: Functions:
+   DEBUG: 2025-01-17 22:59:40,062:      pdf_renderer.py:  470: printSegment:  The code is organized into functions (
+   DEBUG: 2025-01-17 22:59:40,063:      pdf_renderer.py:  470: printSegment: swap
+   DEBUG: 2025-01-17 22:59:40,063:      pdf_renderer.py:  470: printSegment: , 
+   DEBUG: 2025-01-17 22:59:40,064:      pdf_renderer.py:  470: printSegment: shuffle
+   DEBUG: 2025-01-17 22:59:40,064:      pdf_renderer.py:  470: printSegment: , 
+   DEBUG: 2025-01-17 22:59:40,064:      pdf_renderer.py:  470: printSegment: generate_password
+   DEBUG: 2025-01-17 22:59:40,065:      pdf_renderer.py:  470: printSegment: ) for
+   DEBUG: 2025-01-17 22:59:40,065:      pdf_renderer.py:  470: printSegment: better readability and reusability.
+   DEBUG: 2025-01-17 22:59:40,066:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,066:      pdf_renderer.py:  470: printSegment: goto
+   DEBUG: 2025-01-17 22:59:40,067:      pdf_renderer.py:  470: printSegment:  statement:
+   DEBUG: 2025-01-17 22:59:40,067:      pdf_renderer.py:  470: printSegment:  The 
+   DEBUG: 2025-01-17 22:59:40,067:      pdf_renderer.py:  470: printSegment: goto
+   DEBUG: 2025-01-17 22:59:40,076:      pdf_renderer.py:  470: printSegment:  statement allows the program to jump to a specific label in the code.
+   DEBUG: 2025-01-17 22:59:40,080:      pdf_renderer.py:  470: printSegment: This statement is used to repeatedly prompt for a password when the user enters a password not
+   DEBUG: 2025-01-17 22:59:40,081:      pdf_renderer.py:  470: printSegment: meeting the requirements of length of the password. It is generally not good practice to use 
+   DEBUG: 2025-01-17 22:59:40,081:      pdf_renderer.py:  470: printSegment: goto
+   DEBUG: 2025-01-17 22:59:40,082:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2025-01-17 22:59:40,082:      pdf_renderer.py:  470: printSegment: statements as it reduces the readability of the code.
+   DEBUG: 2025-01-17 22:59:40,083:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,083:      pdf_renderer.py:  470: printSegment: ASCII Values
+   DEBUG: 2025-01-17 22:59:40,085:      pdf_renderer.py:  470: printSegment: : The program compares the input characters with ASCII values to determine the type
+   DEBUG: 2025-01-17 22:59:40,086:      pdf_renderer.py:  470: printSegment: of character, for example, if the character
+   DEBUG: 2025-01-17 22:59:40,086:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,086:      pdf_renderer.py:  470: printSegment: s ASCII value is between that of 
+   DEBUG: 2025-01-17 22:59:40,087:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,087:      pdf_renderer.py:  470: printSegment: a
+   DEBUG: 2025-01-17 22:59:40,088:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,088:      pdf_renderer.py:  470: printSegment:  and 
+   DEBUG: 2025-01-17 22:59:40,088:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,089:      pdf_renderer.py:  470: printSegment: z
+   DEBUG: 2025-01-17 22:59:40,089:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,090:      pdf_renderer.py:  470: printSegment:  then it is said to
+   DEBUG: 2025-01-17 22:59:40,090:      pdf_renderer.py:  470: printSegment: be a lower case character.
+   DEBUG: 2025-01-17 22:59:40,091:      pdf_renderer.py:  470: printSegment: Summary
+   DEBUG: 2025-01-17 22:59:40,103:      pdf_renderer.py:  470: printSegment: This C code generates and evaluates passwords. It ensures that user-entered passwords are of the correct length and
+   DEBUG: 2025-01-17 22:59:40,108:      pdf_renderer.py:  470: printSegment: do not contain specific characters. It also assesses password strength and offers to generate a random, robust
+   DEBUG: 2025-01-17 22:59:40,109:      pdf_renderer.py:  470: printSegment: password. The program is useful for teaching basic concepts of string manipulation, random numbers generation and
+   DEBUG: 2025-01-17 22:59:40,110:      pdf_renderer.py:  470: printSegment: conditional statements.
+   DEBUG: 2025-01-17 22:59:40,110:      pdf_renderer.py:  470: printSegment: ---
+   DEBUG: 2025-01-17 22:59:40,110:      pdf_renderer.py:  470: printSegment: ```markdown
+   DEBUG: 2025-01-17 22:59:40,111:      pdf_renderer.py:  470: printSegment: # Code Explanation: Password Generator and Strength Checker
+   DEBUG: 2025-01-17 22:59:40,113:      pdf_renderer.py:  470: printSegment: This C code is designed to both evaluate the strength of a
+   DEBUG: 2025-01-17 22:59:40,114:      pdf_renderer.py:  470: printSegment: user-provided password and generate a strong, random password.
+   DEBUG: 2025-01-17 22:59:40,114:      pdf_renderer.py:  470: printSegment: Let's break it down step-by-step:
+   DEBUG: 2025-01-17 22:59:40,115:      pdf_renderer.py:  470: printSegment: ## 1. Header Files
+   DEBUG: 2025-01-17 22:59:40,115:      pdf_renderer.py:  470: printSegment: ```c
+   DEBUG: 2025-01-17 22:59:40,115:      pdf_renderer.py:  470: printSegment: #include<stdio.h>
+   DEBUG: 2025-01-17 22:59:40,115:      pdf_renderer.py:  470: printSegment: #include<string.h>
+   DEBUG: 2025-01-17 22:59:40,116:      pdf_renderer.py:  470: printSegment: #include<stdlib.h>
+   DEBUG: 2025-01-17 22:59:40,116:      pdf_renderer.py:  470: printSegment: #include<time.h>
+   DEBUG: 2025-01-17 22:59:40,116:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,117:      pdf_renderer.py:  470: printSegment: stdio.h
+   DEBUG: 2025-01-17 22:59:40,117:      pdf_renderer.py:  470: printSegment: : This header provides standard input/output functions like 
+   DEBUG: 2025-01-17 22:59:40,117:      pdf_renderer.py:  470: printSegment: printf
+   DEBUG: 2025-01-17 22:59:40,118:      pdf_renderer.py:  470: printSegment:  (for printing to the
+   DEBUG: 2025-01-17 22:59:40,118:      pdf_renderer.py:  470: printSegment: console) and 
+   DEBUG: 2025-01-17 22:59:40,118:      pdf_renderer.py:  470: printSegment: scanf
+   DEBUG: 2025-01-17 22:59:40,119:      pdf_renderer.py:  470: printSegment:  (for reading input from the console).
+   DEBUG: 2025-01-17 22:59:40,119:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,119:      pdf_renderer.py:  470: printSegment: string.h
+   DEBUG: 2025-01-17 22:59:40,120:      pdf_renderer.py:  470: printSegment: : This header provides functions for working with strings, such as 
+   DEBUG: 2025-01-17 22:59:40,120:      pdf_renderer.py:  470: printSegment: strlen
+   DEBUG: 2025-01-17 22:59:40,120:      pdf_renderer.py:  470: printSegment:  (to get the
+   DEBUG: 2025-01-17 22:59:40,121:      pdf_renderer.py:  470: printSegment: length of a string).
+   DEBUG: 2025-01-17 22:59:40,121:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,121:      pdf_renderer.py:  470: printSegment: stdlib.h
+   DEBUG: 2025-01-17 22:59:40,122:      pdf_renderer.py:  470: printSegment: : This header provides general utility functions, including 
+   DEBUG: 2025-01-17 22:59:40,122:      pdf_renderer.py:  470: printSegment: rand
+   DEBUG: 2025-01-17 22:59:40,122:      pdf_renderer.py:  470: printSegment:  (for generating random
+   DEBUG: 2025-01-17 22:59:40,123:      pdf_renderer.py:  470: printSegment: numbers), 
+   DEBUG: 2025-01-17 22:59:40,123:      pdf_renderer.py:  470: printSegment: srand
+   DEBUG: 2025-01-17 22:59:40,123:      pdf_renderer.py:  470: printSegment:  (for seeding the random number generator), and 
+   DEBUG: 2025-01-17 22:59:40,124:      pdf_renderer.py:  470: printSegment: system
+   DEBUG: 2025-01-17 22:59:40,124:      pdf_renderer.py:  470: printSegment:  (to execute shell
+   DEBUG: 2025-01-17 22:59:40,124:      pdf_renderer.py:  470: printSegment: commands).
+   DEBUG: 2025-01-17 22:59:40,125:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,125:      pdf_renderer.py:  470: printSegment: time.h
+   DEBUG: 2025-01-17 22:59:40,125:      pdf_renderer.py:  470: printSegment: : This header provides time-related functions, which we
+   DEBUG: 2025-01-17 22:59:40,126:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,128:      pdf_renderer.py:  470: printSegment: ll use to seed the random number
+   DEBUG: 2025-01-17 22:59:40,129:      pdf_renderer.py:  470: printSegment: generator to make sure that we get a unique random password each time we run the program.
+   DEBUG: 2025-01-17 22:59:40,129:      pdf_renderer.py:  470: printSegment: 2. 
+   DEBUG: 2025-01-17 22:59:40,129:      pdf_renderer.py:  470: printSegment: swap
+   DEBUG: 2025-01-17 22:59:40,130:      pdf_renderer.py:  470: printSegment:  Function
+   DEBUG: 2025-01-17 22:59:40,130:      pdf_renderer.py:  470: printSegment: void swap (char *p1, char*p2)
+   DEBUG: 2025-01-17 22:59:40,130:      pdf_renderer.py:  470: printSegment: {
+   DEBUG: 2025-01-17 22:59:40,131:      pdf_renderer.py:  470: printSegment:     //swapping the characters
+   DEBUG: 2025-01-17 22:59:40,131:      pdf_renderer.py:  470: printSegment:     char temp = *p1;
+   DEBUG: 2025-01-17 22:59:40,132:      pdf_renderer.py:  470: printSegment:     *p1 = *p2; 
+   DEBUG: 2025-01-17 22:59:40,132:      pdf_renderer.py:  470: printSegment:     *p2 = temp;
+   DEBUG: 2025-01-17 22:59:40,132:      pdf_renderer.py:  470: printSegment: }
+   DEBUG: 2025-01-17 22:59:40,133:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,133:      pdf_renderer.py:  470: printSegment: This function takes two character pointers (
+   DEBUG: 2025-01-17 22:59:40,133:      pdf_renderer.py:  470: printSegment: p1
+   DEBUG: 2025-01-17 22:59:40,134:      pdf_renderer.py:  470: printSegment:  and 
+   DEBUG: 2025-01-17 22:59:40,134:      pdf_renderer.py:  470: printSegment: p2
+   DEBUG: 2025-01-17 22:59:40,134:      pdf_renderer.py:  470: printSegment: ) as input.
+   DEBUG: 2025-01-17 22:59:40,135:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,135:      pdf_renderer.py:  470: printSegment: It swaps the characters that 
+   DEBUG: 2025-01-17 22:59:40,135:      pdf_renderer.py:  470: printSegment: p1
+   DEBUG: 2025-01-17 22:59:40,136:      pdf_renderer.py:  470: printSegment:  and 
+   DEBUG: 2025-01-17 22:59:40,136:      pdf_renderer.py:  470: printSegment: p2
+   DEBUG: 2025-01-17 22:59:40,136:      pdf_renderer.py:  470: printSegment:  are pointing to.
+   DEBUG: 2025-01-17 22:59:40,137:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,137:      pdf_renderer.py:  470: printSegment: This is done by creating a temporary variable 
+   DEBUG: 2025-01-17 22:59:40,138:      pdf_renderer.py:  470: printSegment: temp
+   DEBUG: 2025-01-17 22:59:40,138:      pdf_renderer.py:  470: printSegment: , storing the value of 
+   DEBUG: 2025-01-17 22:59:40,138:      pdf_renderer.py:  470: printSegment: *p1
+   DEBUG: 2025-01-17 22:59:40,139:      pdf_renderer.py:  470: printSegment:  in it, assigning the
+   DEBUG: 2025-01-17 22:59:40,139:      pdf_renderer.py:  470: printSegment: value of 
+   DEBUG: 2025-01-17 22:59:40,140:      pdf_renderer.py:  470: printSegment: *p2
+   DEBUG: 2025-01-17 22:59:40,140:      pdf_renderer.py:  470: printSegment:  to 
+   DEBUG: 2025-01-17 22:59:40,140:      pdf_renderer.py:  470: printSegment: *p1
+   DEBUG: 2025-01-17 22:59:40,141:      pdf_renderer.py:  470: printSegment: , and finally assigning the value of 
+   DEBUG: 2025-01-17 22:59:40,141:      pdf_renderer.py:  470: printSegment: temp
+   DEBUG: 2025-01-17 22:59:40,141:      pdf_renderer.py:  470: printSegment:  to 
+   DEBUG: 2025-01-17 22:59:40,142:      pdf_renderer.py:  470: printSegment: *p2
+   DEBUG: 2025-01-17 22:59:40,142:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:40,143:      pdf_renderer.py:  470: printSegment: 3. 
+   DEBUG: 2025-01-17 22:59:40,143:      pdf_renderer.py:  470: printSegment: calculate_strength
+   DEBUG: 2025-01-17 22:59:40,143:      pdf_renderer.py:  470: printSegment:  Function
+   DEBUG: 2025-01-17 22:59:40,144:      pdf_renderer.py:  470: printSegment: int calculate_strength(char *password)
+   DEBUG: 2025-01-17 22:59:40,144:      pdf_renderer.py:  470: printSegment: {
+   DEBUG: 2025-01-17 22:59:40,145:      pdf_renderer.py:  470: printSegment:     //initialise all the counters to zero
+   DEBUG: 2025-01-17 22:59:40,145:      pdf_renderer.py:  470: printSegment:     int num = 0;
+   DEBUG: 2025-01-17 22:59:40,145:      pdf_renderer.py:  470: printSegment:     int lower_case = 0;
+   DEBUG: 2025-01-17 22:59:40,146:      pdf_renderer.py:  470: printSegment:     int upper_case = 0;
+   DEBUG: 2025-01-17 22:59:40,146:      pdf_renderer.py:  470: printSegment:     int special_char1 = 0;
+   DEBUG: 2025-01-17 22:59:40,147:      pdf_renderer.py:  470: printSegment:     int special_char2 = 0;
+   DEBUG: 2025-01-17 22:59:40,147:      pdf_renderer.py:  470: printSegment:     int invalid = 0;
+   DEBUG: 2025-01-17 22:59:40,147:      pdf_renderer.py:  470: printSegment:     int count[6]; 
+   DEBUG: 2025-01-17 22:59:40,148:      pdf_renderer.py:  470: printSegment:     //checking number of characters of each category for the
+   DEBUG: 2025-01-17 22:59:40,148:      pdf_renderer.py:  470: printSegment: entered password
+   DEBUG: 2025-01-17 22:59:40,149:      pdf_renderer.py:  470: printSegment:     for(int i = 0; i<10; i++)
+   DEBUG: 2025-01-17 22:59:40,149:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:40,149:      pdf_renderer.py:  470: printSegment:         if(password[i] >= '0' && password[i]<='9') 
+   DEBUG: 2025-01-17 22:59:40,149:      pdf_renderer.py:  470: printSegment:             num++;
+   DEBUG: 2025-01-17 22:59:40,150:      pdf_renderer.py:  470: printSegment:         else if(password[i]>='a'&& password[i]<='z') 
+   DEBUG: 2025-01-17 22:59:40,150:      pdf_renderer.py:  470: printSegment:             lower_case++;
+   DEBUG: 2025-01-17 22:59:40,150:      pdf_renderer.py:  470: printSegment:         else if(password[i]>='A' && password[i]<='Z') 
+   DEBUG: 2025-01-17 22:59:40,151:      pdf_renderer.py:  470: printSegment:             upper_case++;
+   DEBUG: 2025-01-17 22:59:40,152:      pdf_renderer.py:  470: printSegment:         else if(password[i] == '?' || password[i] == '-' ||
+   DEBUG: 2025-01-17 22:59:40,152:      pdf_renderer.py:  470: printSegment: password[i] == '+' || password[i] == '=') 
+   DEBUG: 2025-01-17 22:59:40,153:      pdf_renderer.py:  470: printSegment:             special_char1++;
+   DEBUG: 2025-01-17 22:59:40,154:      pdf_renderer.py:  470: printSegment:         else if(password[i] == '!' || password[i] == '@' ||
+   DEBUG: 2025-01-17 22:59:40,154:      pdf_renderer.py:  470: printSegment: password[i] == '#' || password[i] == '$') 
+   DEBUG: 2025-01-17 22:59:40,155:      pdf_renderer.py:  470: printSegment:             special_char2++;
+   DEBUG: 2025-01-17 22:59:40,155:      pdf_renderer.py:  470: printSegment:         else 
+   DEBUG: 2025-01-17 22:59:40,155:      pdf_renderer.py:  470: printSegment:             invalid++;
+   DEBUG: 2025-01-17 22:59:40,155:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:40,156:      pdf_renderer.py:  470: printSegment:     int special_char = special_char1 + special_char2;
+   DEBUG: 2025-01-17 22:59:40,156:      pdf_renderer.py:  470: printSegment:     count[0] = num;
+   DEBUG: 2025-01-17 22:59:40,156:      pdf_renderer.py:  470: printSegment:     count[1] = lower_case;
+   DEBUG: 2025-01-17 22:59:40,157:      pdf_renderer.py:  470: printSegment:     count[2] = upper_case;
+   DEBUG: 2025-01-17 22:59:40,157:      pdf_renderer.py:  470: printSegment:     count[3] = special_char1;
+   DEBUG: 2025-01-17 22:59:40,157:      pdf_renderer.py:  470: printSegment:     count[4] = special_char2;
+   DEBUG: 2025-01-17 22:59:40,157:      pdf_renderer.py:  470: printSegment:     int type = 0;
+   DEBUG: 2025-01-17 22:59:40,158:      pdf_renderer.py:  470: printSegment:     for(int i = 0; i<3; i++)
+   DEBUG: 2025-01-17 22:59:40,158:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:40,158:      pdf_renderer.py:  470: printSegment:         if(count[i]!=0)
+   DEBUG: 2025-01-17 22:59:40,159:      pdf_renderer.py:  470: printSegment:             type++;
+   DEBUG: 2025-01-17 22:59:40,159:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:40,159:      pdf_renderer.py:  470: printSegment:     if(special_char!=0) type++;
+   DEBUG: 2025-01-17 22:59:40,160:      pdf_renderer.py:  470: printSegment:     //int has_num_twice = num >= 2;
+   DEBUG: 2025-01-17 22:59:40,160:      pdf_renderer.py:  470: printSegment:     //returning the strength of password
+   DEBUG: 2025-01-17 22:59:40,160:      pdf_renderer.py:  470: printSegment:     if (invalid !=0)
+   DEBUG: 2025-01-17 22:59:40,160:      pdf_renderer.py:  470: printSegment:         return -1;
+   DEBUG: 2025-01-17 22:59:40,161:      pdf_renderer.py:  470: printSegment:     else if (type == 1) 
+   DEBUG: 2025-01-17 22:59:40,161:      pdf_renderer.py:  470: printSegment:         return 50;
+   DEBUG: 2025-01-17 22:59:40,161:      pdf_renderer.py:  470: printSegment:     else if (type == 2) 
+   DEBUG: 2025-01-17 22:59:40,162:      pdf_renderer.py:  470: printSegment:         return 65;
+   DEBUG: 2025-01-17 22:59:40,162:      pdf_renderer.py:  470: printSegment:     else if (type == 3) 
+   DEBUG: 2025-01-17 22:59:40,162:      pdf_renderer.py:  470: printSegment:         return 75;
+   DEBUG: 2025-01-17 22:59:40,163:      pdf_renderer.py:  470: printSegment:     else if (special_char1 == 0 || special_char2 == 0)
+   DEBUG: 2025-01-17 22:59:40,163:      pdf_renderer.py:  470: printSegment:         return 85;
+   DEBUG: 2025-01-17 22:59:40,163:      pdf_renderer.py:  470: printSegment:     
+   DEBUG: 2025-01-17 22:59:40,164:      pdf_renderer.py:  470: printSegment:     int has_two_num = (num == 2);
+   DEBUG: 2025-01-17 22:59:40,164:      pdf_renderer.py:  470: printSegment:     int has_two_lower = (lower_case == 2); 
+   DEBUG: 2025-01-17 22:59:40,164:      pdf_renderer.py:  470: printSegment:     int has_two_upper = (upper_case == 2);
+   DEBUG: 2025-01-17 22:59:40,165:      pdf_renderer.py:  470: printSegment:     int has_two_char1 = (special_char1 == 2);
+   DEBUG: 2025-01-17 22:59:40,165:      pdf_renderer.py:  470: printSegment:     int has_two_char2 = (special_char2 == 2);
+   DEBUG: 2025-01-17 22:59:40,166:      pdf_renderer.py:  470: printSegment:     if(has_two_char1 && has_two_char2 && has_two_lower &&
+   DEBUG: 2025-01-17 22:59:40,166:      pdf_renderer.py:  470: printSegment: has_two_num && has_two_upper)
+   DEBUG: 2025-01-17 22:59:40,167:      pdf_renderer.py:  470: printSegment:         return 100;
+   DEBUG: 2025-01-17 22:59:40,167:      pdf_renderer.py:  470: printSegment:     else 
+   DEBUG: 2025-01-17 22:59:40,167:      pdf_renderer.py:  470: printSegment:         return 95;
+   DEBUG: 2025-01-17 22:59:40,168:      pdf_renderer.py:  470: printSegment: }
+   DEBUG: 2025-01-17 22:59:40,168:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,169:      pdf_renderer.py:  470: printSegment: This function takes a password string as input and determines its strength based on the types of
+   DEBUG: 2025-01-17 22:59:40,169:      pdf_renderer.py:  470: printSegment: characters it contains.
+   DEBUG: 2025-01-17 22:59:40,169:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,170:      pdf_renderer.py:  470: printSegment: It initializes several counters: 
+   DEBUG: 2025-01-17 22:59:40,170:      pdf_renderer.py:  470: printSegment: num
+   DEBUG: 2025-01-17 22:59:40,170:      pdf_renderer.py:  470: printSegment:  (for digits), 
+   DEBUG: 2025-01-17 22:59:40,171:      pdf_renderer.py:  470: printSegment: lower_case
+   DEBUG: 2025-01-17 22:59:40,171:      pdf_renderer.py:  470: printSegment: , 
+   DEBUG: 2025-01-17 22:59:40,171:      pdf_renderer.py:  470: printSegment: upper_case
+   DEBUG: 2025-01-17 22:59:40,171:      pdf_renderer.py:  470: printSegment: , 
+   DEBUG: 2025-01-17 22:59:40,172:      pdf_renderer.py:  470: printSegment: special_char1
+   DEBUG: 2025-01-17 22:59:40,172:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2025-01-17 22:59:40,172:      pdf_renderer.py:  470: printSegment: (for 
+   DEBUG: 2025-01-17 22:59:40,172:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,172:      pdf_renderer.py:  470: printSegment: ?
+   DEBUG: 2025-01-17 22:59:40,173:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,173:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:40,173:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,173:      pdf_renderer.py:  470: printSegment: -
+   DEBUG: 2025-01-17 22:59:40,174:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,174:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:40,174:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,174:      pdf_renderer.py:  470: printSegment: +
+   DEBUG: 2025-01-17 22:59:40,175:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,175:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:40,175:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,175:      pdf_renderer.py:  470: printSegment: =
+   DEBUG: 2025-01-17 22:59:40,176:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,176:      pdf_renderer.py:  470: printSegment: ), 
+   DEBUG: 2025-01-17 22:59:40,176:      pdf_renderer.py:  470: printSegment: special_char2
+   DEBUG: 2025-01-17 22:59:40,176:      pdf_renderer.py:  470: printSegment:  (for 
+   DEBUG: 2025-01-17 22:59:40,177:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,177:      pdf_renderer.py:  470: printSegment: !
+   DEBUG: 2025-01-17 22:59:40,177:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,177:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:40,178:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,178:      pdf_renderer.py:  470: printSegment: @
+   DEBUG: 2025-01-17 22:59:40,178:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,178:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:40,179:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,179:      pdf_renderer.py:  470: printSegment: #
+   DEBUG: 2025-01-17 22:59:40,179:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,179:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:40,180:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,180:      pdf_renderer.py:  470: printSegment: $
+   DEBUG: 2025-01-17 22:59:40,180:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,180:      pdf_renderer.py:  470: printSegment: ), and 
+   DEBUG: 2025-01-17 22:59:40,181:      pdf_renderer.py:  470: printSegment: invalid
+   DEBUG: 2025-01-17 22:59:40,181:      pdf_renderer.py:  470: printSegment:  (for any characters that are not
+   DEBUG: 2025-01-17 22:59:40,181:      pdf_renderer.py:  470: printSegment: allowed).
+   DEBUG: 2025-01-17 22:59:40,182:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,182:      pdf_renderer.py:  470: printSegment: It iterates through the password, checking each character:
+   DEBUG: 2025-01-17 22:59:40,182:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,183:      pdf_renderer.py:  470: printSegment: If it
+   DEBUG: 2025-01-17 22:59:40,183:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,183:      pdf_renderer.py:  470: printSegment: s a digit (0-9), it increments 
+   DEBUG: 2025-01-17 22:59:40,184:      pdf_renderer.py:  470: printSegment: num
+   DEBUG: 2025-01-17 22:59:40,184:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:40,184:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,184:      pdf_renderer.py:  470: printSegment: If it
+   DEBUG: 2025-01-17 22:59:40,185:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,185:      pdf_renderer.py:  470: printSegment: s a lowercase letter (a-z), it increments 
+   DEBUG: 2025-01-17 22:59:40,185:      pdf_renderer.py:  470: printSegment: lower_case
+   DEBUG: 2025-01-17 22:59:40,186:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:40,186:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,186:      pdf_renderer.py:  470: printSegment: If it
+   DEBUG: 2025-01-17 22:59:40,187:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,187:      pdf_renderer.py:  470: printSegment: s an uppercase letter (A-Z), it increments 
+   DEBUG: 2025-01-17 22:59:40,187:      pdf_renderer.py:  470: printSegment: upper_case
+   DEBUG: 2025-01-17 22:59:40,188:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:40,188:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,188:      pdf_renderer.py:  470: printSegment: If it
+   DEBUG: 2025-01-17 22:59:40,188:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,189:      pdf_renderer.py:  470: printSegment: s one of 
+   DEBUG: 2025-01-17 22:59:40,189:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,189:      pdf_renderer.py:  470: printSegment: ?
+   DEBUG: 2025-01-17 22:59:40,190:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,190:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:40,190:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,191:      pdf_renderer.py:  470: printSegment: -
+   DEBUG: 2025-01-17 22:59:40,191:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,191:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:40,191:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,192:      pdf_renderer.py:  470: printSegment: +
+   DEBUG: 2025-01-17 22:59:40,192:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,192:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:40,193:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,193:      pdf_renderer.py:  470: printSegment: =
+   DEBUG: 2025-01-17 22:59:40,193:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,193:      pdf_renderer.py:  470: printSegment: , it increments 
+   DEBUG: 2025-01-17 22:59:40,194:      pdf_renderer.py:  470: printSegment: special_char1
+   DEBUG: 2025-01-17 22:59:40,194:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:40,194:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,195:      pdf_renderer.py:  470: printSegment: If it
+   DEBUG: 2025-01-17 22:59:40,195:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,195:      pdf_renderer.py:  470: printSegment: s one of 
+   DEBUG: 2025-01-17 22:59:40,196:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,196:      pdf_renderer.py:  470: printSegment: !
+   DEBUG: 2025-01-17 22:59:40,196:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,197:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:40,197:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,197:      pdf_renderer.py:  470: printSegment: @
+   DEBUG: 2025-01-17 22:59:40,197:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,198:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:40,198:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,198:      pdf_renderer.py:  470: printSegment: #
+   DEBUG: 2025-01-17 22:59:40,199:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,199:      pdf_renderer.py:  470: printSegment: ,
+   DEBUG: 2025-01-17 22:59:40,199:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,200:      pdf_renderer.py:  470: printSegment: $
+   DEBUG: 2025-01-17 22:59:40,200:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,200:      pdf_renderer.py:  470: printSegment: , it increments 
+   DEBUG: 2025-01-17 22:59:40,201:      pdf_renderer.py:  470: printSegment: special_char2
+   DEBUG: 2025-01-17 22:59:40,201:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:40,201:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,202:      pdf_renderer.py:  470: printSegment: If it
+   DEBUG: 2025-01-17 22:59:40,202:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,202:      pdf_renderer.py:  470: printSegment: s any other character, it increments 
+   DEBUG: 2025-01-17 22:59:40,203:      pdf_renderer.py:  470: printSegment: invalid
+   DEBUG: 2025-01-17 22:59:40,203:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:40,203:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,204:      pdf_renderer.py:  470: printSegment: It then calculates the total number of special characters (
+   DEBUG: 2025-01-17 22:59:40,204:      pdf_renderer.py:  470: printSegment: special_char
+   DEBUG: 2025-01-17 22:59:40,205:      pdf_renderer.py:  470: printSegment: ).
+   DEBUG: 2025-01-17 22:59:40,205:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,205:      pdf_renderer.py:  470: printSegment: It counts the number of different 
+   DEBUG: 2025-01-17 22:59:40,206:      pdf_renderer.py:  470: printSegment: types
+   DEBUG: 2025-01-17 22:59:40,207:      pdf_renderer.py:  470: printSegment:  of characters present in the password, and stores the count in
+   DEBUG: 2025-01-17 22:59:40,207:      pdf_renderer.py:  470: printSegment: variable 
+   DEBUG: 2025-01-17 22:59:40,207:      pdf_renderer.py:  470: printSegment: type
+   DEBUG: 2025-01-17 22:59:40,208:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,208:      pdf_renderer.py:  470: printSegment: Based on the character counts and the value of 
+   DEBUG: 2025-01-17 22:59:40,209:      pdf_renderer.py:  470: printSegment: type
+   DEBUG: 2025-01-17 22:59:40,209:      pdf_renderer.py:  470: printSegment: , it assigns a strength score:
+   DEBUG: 2025-01-17 22:59:40,209:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,210:      pdf_renderer.py:  470: printSegment: If the password contains invalid characters return -1.
+   DEBUG: 2025-01-17 22:59:40,210:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,211:      pdf_renderer.py:  470: printSegment: If only 1 type of character is present, the password strength is 50.
+   DEBUG: 2025-01-17 22:59:40,211:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,212:      pdf_renderer.py:  470: printSegment: If 2 types of character is present, the password strength is 65.
+   DEBUG: 2025-01-17 22:59:40,212:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,213:      pdf_renderer.py:  470: printSegment: If 3 types of character is present, the password strength is 75.
+   DEBUG: 2025-01-17 22:59:40,213:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,214:      pdf_renderer.py:  470: printSegment: If both special char 1 and char 2 are not present, the password strength is 85.
+   DEBUG: 2025-01-17 22:59:40,214:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,218:      pdf_renderer.py:  470: printSegment: If the password has exactly two numbers, two lowercase letters, two uppercase
+   DEBUG: 2025-01-17 22:59:40,219:      pdf_renderer.py:  470: printSegment: letters, two special char 1 and two special char 2 then the strength is 100, else
+   DEBUG: 2025-01-17 22:59:40,220:      pdf_renderer.py:  470: printSegment: strength is 95.
+   DEBUG: 2025-01-17 22:59:40,220:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,221:      pdf_renderer.py:  470: printSegment: It then returns the calculated password strength.
+   DEBUG: 2025-01-17 22:59:40,221:      pdf_renderer.py:  470: printSegment: 4. 
+   DEBUG: 2025-01-17 22:59:40,222:      pdf_renderer.py:  470: printSegment: generate_password
+   DEBUG: 2025-01-17 22:59:40,222:      pdf_renderer.py:  470: printSegment:  Function
+   DEBUG: 2025-01-17 22:59:40,223:      pdf_renderer.py:  470: printSegment: void generate_password() 
+   DEBUG: 2025-01-17 22:59:40,223:      pdf_renderer.py:  470: printSegment: { 
+   DEBUG: 2025-01-17 22:59:40,223:      pdf_renderer.py:  470: printSegment:     //creating arrays for different sets of characters
+   DEBUG: 2025-01-17 22:59:40,224:      pdf_renderer.py:  470: printSegment:     char numbers[] = "0123456789"; 
+   DEBUG: 2025-01-17 22:59:40,225:      pdf_renderer.py:  470: printSegment: 	char lower_case[] = "abcdefghijklmnoqprstuvwyzx"; 
+   DEBUG: 2025-01-17 22:59:40,225:      pdf_renderer.py:  470: printSegment: 	char upper_case[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX"; 
+   DEBUG: 2025-01-17 22:59:40,226:      pdf_renderer.py:  470: printSegment: 	char special_char1[] = "?-+=";
+   DEBUG: 2025-01-17 22:59:40,226:      pdf_renderer.py:  470: printSegment:     char special_char2[] = "!@#$";
+   DEBUG: 2025-01-17 22:59:40,227:      pdf_renderer.py:  470: printSegment:     char password[10];
+   DEBUG: 2025-01-17 22:59:40,227:      pdf_renderer.py:  470: printSegment:     //selecting two characters from each array
+   DEBUG: 2025-01-17 22:59:40,228:      pdf_renderer.py:  470: printSegment:     int j = 0;
+   DEBUG: 2025-01-17 22:59:40,228:      pdf_renderer.py:  470: printSegment:     for(int i = 0; i<2; i++)
+   DEBUG: 2025-01-17 22:59:40,229:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:40,229:      pdf_renderer.py:  470: printSegment:         password[j++] = numbers[rand()%10];
+   DEBUG: 2025-01-17 22:59:40,230:      pdf_renderer.py:  470: printSegment:         password[j++] = lower_case[rand()%26];
+   DEBUG: 2025-01-17 22:59:40,230:      pdf_renderer.py:  470: printSegment:         password[j++] = upper_case[rand()%26];
+   DEBUG: 2025-01-17 22:59:40,231:      pdf_renderer.py:  470: printSegment:         password[j++] = special_char1[rand()%4];
+   DEBUG: 2025-01-17 22:59:40,232:      pdf_renderer.py:  470: printSegment:         password[j++] = special_char2[rand()%4];
+   DEBUG: 2025-01-17 22:59:40,232:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:40,232:      pdf_renderer.py:  470: printSegment:     //shuffling the array
+   DEBUG: 2025-01-17 22:59:40,233:      pdf_renderer.py:  470: printSegment: 	for (int i = 9; i > 0; i--)
+   DEBUG: 2025-01-17 22:59:40,233:      pdf_renderer.py:  470: printSegment: 	{
+   DEBUG: 2025-01-17 22:59:40,233:      pdf_renderer.py:  470: printSegment: 		int k = rand() % (i+1); // Pick a random index from 0 to i
+   DEBUG: 2025-01-17 22:59:40,234:      pdf_renderer.py:  470: printSegment: 		swap(&password[i], &password[k]);
+   DEBUG: 2025-01-17 22:59:40,234:      pdf_renderer.py:  470: printSegment: 	}
+   DEBUG: 2025-01-17 22:59:40,234:      pdf_renderer.py:  470: printSegment:     printf("\n Suggested 100%% strong password: ");
+   DEBUG: 2025-01-17 22:59:40,234:      pdf_renderer.py:  470: printSegment:     for(int i = 0; i<10; i++)
+   DEBUG: 2025-01-17 22:59:40,235:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:40,235:      pdf_renderer.py:  470: printSegment:         printf("%c", password[i]);
+   DEBUG: 2025-01-17 22:59:40,235:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:40,235:      pdf_renderer.py:  470: printSegment: }
+   DEBUG: 2025-01-17 22:59:40,236:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,236:      pdf_renderer.py:  470: printSegment: This function generates a strong, random 10-character password.
+   DEBUG: 2025-01-17 22:59:40,237:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,237:      pdf_renderer.py:  470: printSegment: It creates character arrays 
+   DEBUG: 2025-01-17 22:59:40,238:      pdf_renderer.py:  470: printSegment: numbers
+   DEBUG: 2025-01-17 22:59:40,238:      pdf_renderer.py:  470: printSegment: , 
+   DEBUG: 2025-01-17 22:59:40,238:      pdf_renderer.py:  470: printSegment: lower_case
+   DEBUG: 2025-01-17 22:59:40,238:      pdf_renderer.py:  470: printSegment: , 
+   DEBUG: 2025-01-17 22:59:40,239:      pdf_renderer.py:  470: printSegment: upper_case
+   DEBUG: 2025-01-17 22:59:40,239:      pdf_renderer.py:  470: printSegment: , 
+   DEBUG: 2025-01-17 22:59:40,239:      pdf_renderer.py:  470: printSegment: special_char1
+   DEBUG: 2025-01-17 22:59:40,240:      pdf_renderer.py:  470: printSegment: , and 
+   DEBUG: 2025-01-17 22:59:40,240:      pdf_renderer.py:  470: printSegment: special_char2
+   DEBUG: 2025-01-17 22:59:40,240:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:40,240:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,241:      pdf_renderer.py:  470: printSegment: It initializes an empty 
+   DEBUG: 2025-01-17 22:59:40,241:      pdf_renderer.py:  470: printSegment: password
+   DEBUG: 2025-01-17 22:59:40,242:      pdf_renderer.py:  470: printSegment:  array to store the generated password.
+   DEBUG: 2025-01-17 22:59:40,242:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,242:      pdf_renderer.py:  470: printSegment: It iterates two times to fill the 
+   DEBUG: 2025-01-17 22:59:40,243:      pdf_renderer.py:  470: printSegment: password
+   DEBUG: 2025-01-17 22:59:40,243:      pdf_renderer.py:  470: printSegment:  array:
+   DEBUG: 2025-01-17 22:59:40,244:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,244:      pdf_renderer.py:  470: printSegment: It adds one random digit from 
+   DEBUG: 2025-01-17 22:59:40,244:      pdf_renderer.py:  470: printSegment: numbers
+   DEBUG: 2025-01-17 22:59:40,245:      pdf_renderer.py:  470: printSegment: , one random lowercase letter from 
+   DEBUG: 2025-01-17 22:59:40,245:      pdf_renderer.py:  470: printSegment: lower_case
+   DEBUG: 2025-01-17 22:59:40,245:      pdf_renderer.py:  470: printSegment: , one random uppercase letter from 
+   DEBUG: 2025-01-17 22:59:40,246:      pdf_renderer.py:  470: printSegment: upper_case
+   DEBUG: 2025-01-17 22:59:40,246:      pdf_renderer.py:  470: printSegment: , one random
+   DEBUG: 2025-01-17 22:59:40,247:      pdf_renderer.py:  470: printSegment: character from 
+   DEBUG: 2025-01-17 22:59:40,247:      pdf_renderer.py:  470: printSegment: special_char1
+   DEBUG: 2025-01-17 22:59:40,247:      pdf_renderer.py:  470: printSegment: , and one random character from 
+   DEBUG: 2025-01-17 22:59:40,248:      pdf_renderer.py:  470: printSegment: special_char2
+   DEBUG: 2025-01-17 22:59:40,248:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,248:      pdf_renderer.py:  470: printSegment: It then shuffles the 
+   DEBUG: 2025-01-17 22:59:40,249:      pdf_renderer.py:  470: printSegment: password
+   DEBUG: 2025-01-17 22:59:40,249:      pdf_renderer.py:  470: printSegment:  array using the 
+   DEBUG: 2025-01-17 22:59:40,249:      pdf_renderer.py:  470: printSegment: swap
+   DEBUG: 2025-01-17 22:59:40,250:      pdf_renderer.py:  470: printSegment:  function, to make the password more random.
+   DEBUG: 2025-01-17 22:59:40,250:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,251:      pdf_renderer.py:  470: printSegment: Finally, it prints the suggested password to the console.
+   DEBUG: 2025-01-17 22:59:40,251:      pdf_renderer.py:  470: printSegment: 5. 
+   DEBUG: 2025-01-17 22:59:40,252:      pdf_renderer.py:  470: printSegment: main
+   DEBUG: 2025-01-17 22:59:40,252:      pdf_renderer.py:  470: printSegment:  Function
+   DEBUG: 2025-01-17 22:59:40,252:      pdf_renderer.py:  470: printSegment: int main()
+   DEBUG: 2025-01-17 22:59:40,253:      pdf_renderer.py:  470: printSegment: {
+   DEBUG: 2025-01-17 22:59:40,254:      pdf_renderer.py:  470: printSegment:     system("cls");                   // used to clear the screen
+   DEBUG: 2025-01-17 22:59:40,254:      pdf_renderer.py:  470: printSegment: each time the program is run
+   DEBUG: 2025-01-17 22:59:40,255:      pdf_renderer.py:  470: printSegment:     char user_password[10];
+   DEBUG: 2025-01-17 22:59:40,257:      pdf_renderer.py:  470: printSegment:     printf("\n This program will tell the strength of your
+   DEBUG: 2025-01-17 22:59:40,258:      pdf_renderer.py:  470: printSegment: password, and also suggests you a randomly generated 100%% strength
+   DEBUG: 2025-01-17 22:59:40,258:      pdf_renderer.py:  470: printSegment: password. ");
+   DEBUG: 2025-01-17 22:59:40,259:      pdf_renderer.py:  470: printSegment:     //labelled as repeat
+   DEBUG: 2025-01-17 22:59:40,259:      pdf_renderer.py:  470: printSegment:     repeat: printf("\n The password shoud not contain the following
+   DEBUG: 2025-01-17 22:59:40,260:      pdf_renderer.py:  470: printSegment: characters:");
+   DEBUG: 2025-01-17 22:59:40,260:      pdf_renderer.py:  470: printSegment:     printf("\n '_', '/', '*', '%%', '&', '\', ';', '|', '~'.");
+   DEBUG: 2025-01-17 22:59:40,261:      pdf_renderer.py:  470: printSegment:     printf("\n The password should contain exactly 10
+   DEBUG: 2025-01-17 22:59:40,262:      pdf_renderer.py:  470: printSegment: characters.");   
+   DEBUG: 2025-01-17 22:59:40,262:      pdf_renderer.py:  470: printSegment:     printf("\n Enter your password: ");
+   DEBUG: 2025-01-17 22:59:40,263:      pdf_renderer.py:  470: printSegment:     scanf("%s", user_password);
+   DEBUG: 2025-01-17 22:59:40,263:      pdf_renderer.py:  470: printSegment:     if(strlen(user_password)!=10)
+   DEBUG: 2025-01-17 22:59:40,264:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:40,264:      pdf_renderer.py:  470: printSegment:         printf("\n Password should be 10 characters long.\n\n");
+   DEBUG: 2025-01-17 22:59:40,265:      pdf_renderer.py:  470: printSegment:         goto repeat;    //restart from the label 'repeat'
+   DEBUG: 2025-01-17 22:59:40,265:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:40,265:      pdf_renderer.py:  470: printSegment:     int strength;
+   DEBUG: 2025-01-17 22:59:40,266:      pdf_renderer.py:  470: printSegment:     strength = calculate_strength(user_password);
+   DEBUG: 2025-01-17 22:59:40,266:      pdf_renderer.py:  470: printSegment:     if(strength != -1) 
+   DEBUG: 2025-01-17 22:59:40,267:      pdf_renderer.py:  470: printSegment:         printf("\n Strength of your password is: %d%%\n",
+   DEBUG: 2025-01-17 22:59:40,268:      pdf_renderer.py:  470: printSegment: strength);
+   DEBUG: 2025-01-17 22:59:40,268:      pdf_renderer.py:  470: printSegment:     else 
+   DEBUG: 2025-01-17 22:59:40,268:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:40,268:      pdf_renderer.py:  470: printSegment:         printf("\n Invalid password.\n\n");
+   DEBUG: 2025-01-17 22:59:40,269:      pdf_renderer.py:  470: printSegment:         goto repeat;    //restart from the label 'repeat'
+   DEBUG: 2025-01-17 22:59:40,269:      pdf_renderer.py:  470: printSegment:     }
+   DEBUG: 2025-01-17 22:59:40,269:      pdf_renderer.py:  470: printSegment:     if(strength == 100) 
+   DEBUG: 2025-01-17 22:59:40,269:      pdf_renderer.py:  470: printSegment:         printf("\n Great Work!! Your password is strong enough.");
+   DEBUG: 2025-01-17 22:59:40,270:      pdf_renderer.py:  470: printSegment:     else
+   DEBUG: 2025-01-17 22:59:40,270:      pdf_renderer.py:  470: printSegment:     {
+   DEBUG: 2025-01-17 22:59:40,270:      pdf_renderer.py:  470: printSegment:         srand((unsigned int)(time(NULL))); 
+   DEBUG: 2025-01-17 22:59:40,271:      pdf_renderer.py:  470: printSegment:         generate_password();
+   DEBUG: 2025-01-17 22:59:40,271:      pdf_renderer.py:  470: printSegment:     }  
+   DEBUG: 2025-01-17 22:59:40,271:      pdf_renderer.py:  470: printSegment: 	return 0; 
+   DEBUG: 2025-01-17 22:59:40,271:      pdf_renderer.py:  470: printSegment: }
+   DEBUG: 2025-01-17 22:59:40,272:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,272:      pdf_renderer.py:  470: printSegment: This is the main function where the program execution starts.
+   DEBUG: 2025-01-17 22:59:40,273:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,273:      pdf_renderer.py:  470: printSegment: system("cls")
+   DEBUG: 2025-01-17 22:59:40,273:      pdf_renderer.py:  470: printSegment:  clears the console screen.
+   DEBUG: 2025-01-17 22:59:40,273:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,274:      pdf_renderer.py:  470: printSegment: It declares a character array 
+   DEBUG: 2025-01-17 22:59:40,274:      pdf_renderer.py:  470: printSegment: user_password
+   DEBUG: 2025-01-17 22:59:40,274:      pdf_renderer.py:  470: printSegment:  to store the user
+   DEBUG: 2025-01-17 22:59:40,275:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,275:      pdf_renderer.py:  470: printSegment: s input password.
+   DEBUG: 2025-01-17 22:59:40,275:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,276:      pdf_renderer.py:  470: printSegment: It prints a welcome message to the console.
+   DEBUG: 2025-01-17 22:59:40,276:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,276:      pdf_renderer.py:  470: printSegment: It prompts the user to enter a password.
+   DEBUG: 2025-01-17 22:59:40,277:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,277:      pdf_renderer.py:  470: printSegment: The 
+   DEBUG: 2025-01-17 22:59:40,277:      pdf_renderer.py:  470: printSegment: repeat:
+   DEBUG: 2025-01-17 22:59:40,279:      pdf_renderer.py:  470: printSegment:  label is used to allow the program to ask the user for a password again if the previous
+   DEBUG: 2025-01-17 22:59:40,279:      pdf_renderer.py:  470: printSegment: input was not valid.
+   DEBUG: 2025-01-17 22:59:40,279:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,280:      pdf_renderer.py:  470: printSegment: It uses 
+   DEBUG: 2025-01-17 22:59:40,280:      pdf_renderer.py:  470: printSegment: scanf
+   DEBUG: 2025-01-17 22:59:40,281:      pdf_renderer.py:  470: printSegment:  to read the password from the user.
+   DEBUG: 2025-01-17 22:59:40,281:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,282:      pdf_renderer.py:  470: printSegment: It checks if the password is exactly 10 characters long. If not, it prints an error message and restarts
+   DEBUG: 2025-01-17 22:59:40,283:      pdf_renderer.py:  470: printSegment: the process from the label 
+   DEBUG: 2025-01-17 22:59:40,283:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,284:      pdf_renderer.py:  470: printSegment: repeat
+   DEBUG: 2025-01-17 22:59:40,284:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,284:      pdf_renderer.py:  470: printSegment:  using 
+   DEBUG: 2025-01-17 22:59:40,285:      pdf_renderer.py:  470: printSegment: goto repeat
+   DEBUG: 2025-01-17 22:59:40,285:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:40,285:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,286:      pdf_renderer.py:  470: printSegment: It calls 
+   DEBUG: 2025-01-17 22:59:40,286:      pdf_renderer.py:  470: printSegment: calculate_strength
+   DEBUG: 2025-01-17 22:59:40,287:      pdf_renderer.py:  470: printSegment:  to determine the password
+   DEBUG: 2025-01-17 22:59:40,287:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,287:      pdf_renderer.py:  470: printSegment: s strength.
+   DEBUG: 2025-01-17 22:59:40,288:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,290:      pdf_renderer.py:  470: printSegment: If the returned strength value is not -1, it prints the strength percentage. Else it prints invalid
+   DEBUG: 2025-01-17 22:59:40,291:      pdf_renderer.py:  470: printSegment: password message and restarts the process from the label 
+   DEBUG: 2025-01-17 22:59:40,291:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,292:      pdf_renderer.py:  470: printSegment: repeat
+   DEBUG: 2025-01-17 22:59:40,292:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,292:      pdf_renderer.py:  470: printSegment:  using 
+   DEBUG: 2025-01-17 22:59:40,293:      pdf_renderer.py:  470: printSegment: goto repeat
+   DEBUG: 2025-01-17 22:59:40,293:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2025-01-17 22:59:40,293:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,294:      pdf_renderer.py:  470: printSegment: If the strength is 100, a success message is printed.
+   DEBUG: 2025-01-17 22:59:40,294:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,295:      pdf_renderer.py:  470: printSegment: If the strength is less than 100, the program seeds the random number generator using current time.
+   DEBUG: 2025-01-17 22:59:40,296:      pdf_renderer.py:  470: printSegment: Then it calls 
+   DEBUG: 2025-01-17 22:59:40,296:      pdf_renderer.py:  470: printSegment: generate_password
+   DEBUG: 2025-01-17 22:59:40,297:      pdf_renderer.py:  470: printSegment:  to generate and suggest a new password to the user.
+   DEBUG: 2025-01-17 22:59:40,297:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-01-17 22:59:40,298:      pdf_renderer.py:  470: printSegment: Finally, the function returns 0, indicating successful execution.
+   DEBUG: 2025-01-17 22:59:40,298:      pdf_renderer.py:  470: printSegment: Summary
+   DEBUG: 2025-01-17 22:59:40,299:      pdf_renderer.py:  470: printSegment: In essence, this C program does the following:
+   DEBUG: 2025-01-17 22:59:40,299:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-01-17 22:59:40,300:      pdf_renderer.py:  470: printSegment: It asks the user for a password, ensuring it has 10 characters.
+   DEBUG: 2025-01-17 22:59:40,300:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-01-17 22:59:40,301:      pdf_renderer.py:  470: printSegment: It evaluates the user
+   DEBUG: 2025-01-17 22:59:40,301:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,301:      pdf_renderer.py:  470: printSegment: s password based on the types of characters used and assigns a strength score.
+   DEBUG: 2025-01-17 22:59:40,302:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-01-17 22:59:40,302:      pdf_renderer.py:  470: printSegment: If the user
+   DEBUG: 2025-01-17 22:59:40,303:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-01-17 22:59:40,303:      pdf_renderer.py:  470: printSegment: s password is not considered strong enough (less than 100%), it generates a random,
+   DEBUG: 2025-01-17 22:59:40,304:      pdf_renderer.py:  470: printSegment: strong password.
+   DEBUG: 2025-01-17 22:59:40,305:      pdf_renderer.py:  470: printSegment: This program provides a basic example of password strength assessment and generation using C.
+   DEBUG: 2025-01-17 22:59:40,305:      pdf_renderer.py:  470: printSegment: ---
+   DEBUG: 2025-01-17 22:59:40,306:      pdf_renderer.py:   53: 0, [3, '2. ', 4, 416.4]
+   DEBUG: 2025-01-17 22:59:40,306:      pdf_renderer.py:   53: 1, [3, '3. ', 4, 565.1999999999999]
+   DEBUG: 2025-01-17 22:59:40,306:      pdf_renderer.py:   53: 2, [3, '4. ', 5, 170.4]
+   DEBUG: 2025-01-17 22:59:40,306:      pdf_renderer.py:   53: 3, [3, '5. ', 6, 134.4]
+   DEBUG: 2025-01-17 22:59:40,306:      pdf_renderer.py:   53: 4, [2, 'Key Concepts', 7, 464.8]
+   DEBUG: 2025-01-17 22:59:40,306:      pdf_renderer.py:   53: 5, [2, 'Summary', 7, 702.4]
+   DEBUG: 2025-01-17 22:59:40,306:      pdf_renderer.py:   53: 6, [2, '2. ', 8, 416.8]
+   DEBUG: 2025-01-17 22:59:40,306:      pdf_renderer.py:   53: 7, [2, '3. ', 8, 606.4]
+   DEBUG: 2025-01-17 22:59:40,306:      pdf_renderer.py:   53: 8, [2, '4. ', 10, 488.8]
+   DEBUG: 2025-01-17 22:59:40,306:      pdf_renderer.py:   53: 9, [2, '5. ', 11, 416.8]
+   DEBUG: 2025-01-17 22:59:40,306:      pdf_renderer.py:   53: 10, [2, 'Summary', 12, 512.8]
+   ERROR: 2025-01-17 22:59:40,306:      pdf_renderer.py:   57: Bad heading level.  More information:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mdpdf/pdf_renderer.py", line 55, in __del__
+    self.doc.set_toc(self.toc)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pymupdf/utils.py", line 1516, in set_toc
+    raise ValueError("hierarchy level of item 0 must be 1")
+ValueError: hierarchy level of item 0 must be 1
+    INFO: 2025-01-17 22:59:40,309:      pdf_renderer.py:   59: [3, '3. ', 4, 565.1999999999999]
